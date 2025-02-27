@@ -144,7 +144,8 @@
 .hero {
     position: relative;
     text-align: center;
-    background: url('banner.jpeg') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(199, 216, 199, 0.8) 0%, rgba(25, 58, 26, 0.8) 70%),
+                url('banner.jpeg') no-repeat center center/cover;
     color: rgb(251, 248, 248);
     padding: 100px 20px;
     height: 300px;
@@ -172,7 +173,8 @@
     justify-content: center; /* Centers content vertically */
     align-items: center; /* Centers content horizontally */
     text-align: center;
-    background: url('banner.jpeg') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(199, 216, 199, 0.8) 0%, rgba(25, 58, 26, 0.8) 70%),
+                    url('banner.jpeg') no-repeat center center/cover;
     color: rgb(251, 248, 248);
     padding: 100px 20px;
     height: 300px;
