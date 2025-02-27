@@ -1,0 +1,216 @@
+/* Carousel Styles - Modified for full height */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 130px); /* 70px top-bar + 60px navigation */
+    overflow: hidden;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+/* Black overlay for carousel */
+.carousel-slide:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Transparent black overlay - adjust the 0.4 value to control darkness */
+    z-index: 1;
+}
+
+/* Tree Globe Image Overlay */
+.tree-globe-overlay {
+    position: absolute;
+    width: 500px; /* Adjust size as needed */
+    height: auto;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    z-index: 3; /* Above the carousel content and black overlay */
+}
+
+.carousel-content {
+    max-width: 600px;
+    color: white;
+    position: relative;
+    z-index: 2; /* Place content above the overlay */
+}
+
+.carousel-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.carousel-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.carousel-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-secondary {
+    background-color: #FF8C00;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.carousel-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 2; /* Place navigation above the overlay */
+}
+
+.carousel-nav-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.carousel-nav-button.active {
+    background-color: white;
+}
+
+.carousel-arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    pointer-events: none;
+    z-index: 2; /* Place arrows above the overlay */
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.arrow i {
+    color: white;
+    font-size: 24px;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    background: url('banner.jpeg') no-repeat center center/cover;
+    color: rgb(251, 248, 248);
+    padding: 100px 20px;
+    height: 500px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(187, 185, 185, 0.321); /* Adjust transparency */
+    z-index: 1;
+}
+
+.hero * {
+    position: relative;
+    z-index: 2;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center;
+    background: url('banner.jpeg') no-repeat center center/cover;
+    color: rgb(251, 248, 248);
+    padding: 100px 20px;
+    height: 500px;
+}
+
+
+.projects {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.project-item img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.project-content {
+    flex: 1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
