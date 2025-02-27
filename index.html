@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Energy Navigation</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: #333;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 10%;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-icon {
+            color: #4CAF50;
+            font-size: 28px;
+            margin-right: 10px;
+        }
+
+        .logo-image {
+            height: 40px;
+            /* Adjust based on your logo's dimensions */
+            width: auto;
+        }
+
+        .contact-info {
+    display: flex;
+    gap: 50px; /* Increased from 30px to provide more separation */
+}
+
+/* Alternative approach with more visual separation */
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    position: relative;
+}
+
+/* Add a separator line between contact items */
+.contact-item:not(:last-child):after {
+    content: '';
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    width: 1px;
+    background-color: #e0e0e0;
+}
+
+        .contact-icon {
+            color: #4CAF50;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .contact-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-heading {
+            font-size: 16px;
+            color: #4CAF50;
+        }
+
+        .contact-detail {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .free-consultation {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10%;
+            height: 60px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-right: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #4CAF50;
+        }
+
+        .buy-now {
+            background-color: #FF8C00;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .social-search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-icon {
+            margin-right: 20px;
+            font-size: 18px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            color: #666;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Top Bar with logo, contact info and consultation button -->
+    <div class="top-bar">
+        <div class="logo-container">
+            <div class="logo-container">
+                <img src="481741660_1202479434928856_876828406647000477_n.png" alt="Eco Energy Logo" class="logo-image">
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="contact-icon fa-solid fa-phone"></i>
+                <div class="contact-text">
+                    <span class="contact-heading">Call Us Anytime</span>
+                    <span class="contact-detail">(+91) 1800-214-122</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="contact-icon fa-solid fa-envelope"></i>
+                <div class="contact-text">
+                    <span class="contact-heading">Email Us Anytime</span>
+                    <span class="contact-detail">eco@example.com</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="free-consultation">Free Consultation</button>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <div class="navigation">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Methodolgy</a></li>
+           
+        </ul>
+
+      
+
+        <div class="social-search">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
