@@ -8,160 +8,6 @@
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            color: #333;
-        }
-
-        .top-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 10%;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .logo-container {
-            display: flex;
-            align-items: center;
-        }
-
-        .logo-icon {
-            color: #4CAF50;
-            font-size: 28px;
-            margin-right: 10px;
-        }
-
-        .logo-image {
-            height: 40px;
-            width: auto;
-        }
-
-        .contact-info {
-            display: flex;
-            gap: 50px;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            padding: 0 15px;
-            position: relative;
-        }
-
-        .contact-item:not(:last-child):after {
-            content: '';
-            position: absolute;
-            right: -25px;
-            top: 50%;
-            transform: translateY(-50%);
-            height: 70%;
-            width: 1px;
-            background-color: #e0e0e0;
-        }
-
-        .contact-icon {
-            color: #4CAF50;
-            font-size: 20px;
-            margin-right: 10px;
-        }
-
-        .contact-text {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .contact-heading {
-            font-size: 16px;
-            color: #4CAF50;
-        }
-
-        .contact-detail {
-            font-size: 14px;
-            color: #666;
-        }
-
-        .free-consultation {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-            white-space: nowrap;
-        }
-
-        .navigation {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 10%;
-            height: 60px;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-links li {
-            margin-right: 30px;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: #333;
-            font-size: 16px;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #4CAF50;
-        }
-
-        .buy-now {
-            background-color: #FF8C00;
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .social-search {
-            display: flex;
-            align-items: center;
-        }
-
-        .search-icon {
-            margin-right: 20px;
-            font-size: 18px;
-            color: #333;
-            cursor: pointer;
-        }
-
-        .social-icons {
-            display: flex;
-            gap: 15px;
-        }
-
-        .social-icons a {
-            color: #666;
-            font-size: 18px;
-            transition: color 0.3s;
-        }
-
-        .social-icons a:hover {
-            color: #4CAF50;
-        }
-
         /* Carousel Styles - Modified for full height */
         .carousel {
             position: relative;
@@ -194,6 +40,17 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.4); /* Transparent black overlay - adjust the 0.4 value to control darkness */
             z-index: 1;
+        }
+
+        /* Tree Globe Image Overlay */
+        .tree-globe-overlay {
+            position: absolute;
+            width: 500px; /* Adjust size as needed */
+            height: auto;
+            top: 50%;
+            right: 10%;
+            transform: translateY(-50%);
+            z-index: 3; /* Above the carousel content and black overlay */
         }
 
         .carousel-content {
@@ -350,6 +207,9 @@
 
     <!-- Carousel Section -->
     <div class="carousel">
+        <!-- Tree Globe Image Overlay -->
+        <img src="tree-globe-image.png" alt="Tree on Earth Globe" class="tree-globe-overlay">
+        
         <div class="carousel-slide">
             <div class="carousel-content">
                 <h1>Go Green Today, Save The World Tomorrow!</h1>
