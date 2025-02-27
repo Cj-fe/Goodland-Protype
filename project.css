@@ -214,3 +214,15 @@
     border-radius: 5px;
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+    .project-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-item img,
+    .project-content {
+        width: 100%;
+    }
+}
