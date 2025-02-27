@@ -40,34 +40,31 @@
 
         .logo-image {
             height: 40px;
-            /* Adjust based on your logo's dimensions */
             width: auto;
         }
 
         .contact-info {
-    display: flex;
-    gap: 50px; /* Increased from 30px to provide more separation */
-}
+            display: flex;
+            gap: 50px;
+        }
 
-/* Alternative approach with more visual separation */
-.contact-item {
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
-    position: relative;
-}
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            position: relative;
+        }
 
-/* Add a separator line between contact items */
-.contact-item:not(:last-child):after {
-    content: '';
-    position: absolute;
-    right: -25px;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 70%;
-    width: 1px;
-    background-color: #e0e0e0;
-}
+        .contact-item:not(:last-child):after {
+            content: '';
+            position: absolute;
+            right: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 70%;
+            width: 1px;
+            background-color: #e0e0e0;
+        }
 
         .contact-icon {
             color: #4CAF50;
@@ -164,6 +161,139 @@
         .social-icons a:hover {
             color: #4CAF50;
         }
+
+        /* Carousel Styles - Modified for full height */
+        .carousel {
+            position: relative;
+            width: 100%;
+            height: calc(100vh - 130px); /* 70px top-bar + 60px navigation */
+            overflow: hidden;
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('image.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+        }
+
+        /* Black overlay for carousel */
+        .carousel-slide:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Transparent black overlay - adjust the 0.4 value to control darkness */
+            z-index: 1;
+        }
+
+        .carousel-content {
+            max-width: 600px;
+            color: white;
+            position: relative;
+            z-index: 2; /* Place content above the overlay */
+        }
+
+        .carousel-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .carousel-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .carousel-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-secondary {
+            background-color: #FF8C00;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 2; /* Place navigation above the overlay */
+        }
+
+        .carousel-nav-button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+
+        .carousel-nav-button.active {
+            background-color: white;
+        }
+
+        .carousel-arrows {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            pointer-events: none;
+            z-index: 2; /* Place arrows above the overlay */
+        }
+
+        .arrow {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            pointer-events: auto;
+        }
+
+        .arrow i {
+            color: white;
+            font-size: 24px;
+        }
     </style>
 </head>
 
@@ -202,11 +332,8 @@
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Methodolgy</a></li>
-           
+            <li><a href="#">Methodology</a></li>
         </ul>
-
-      
 
         <div class="social-search">
             <div class="search-icon">
@@ -220,6 +347,72 @@
             </div>
         </div>
     </div>
+
+    <!-- Carousel Section -->
+    <div class="carousel">
+        <div class="carousel-slide">
+            <div class="carousel-content">
+                <h1>Go Green Today, Save The World Tomorrow!</h1>
+                <p>Consectetur adipisicing elited do eiusmod tempor incidid labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="carousel-buttons">
+                    <a href="#" class="btn-primary">Read More</a>
+                    <a href="#" class="btn-secondary">Get Involved</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carousel navigation dots -->
+        <div class="carousel-nav">
+            <div class="carousel-nav-button active"></div>
+            <div class="carousel-nav-button"></div>
+            <div class="carousel-nav-button"></div>
+        </div>
+        
+        <!-- Carousel arrows -->
+        <div class="carousel-arrows">
+            <div class="arrow">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="arrow">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Basic carousel functionality
+        const slides = document.querySelectorAll('.carousel-slide');
+        const dots = document.querySelectorAll('.carousel-nav-button');
+        const leftArrow = document.querySelector('.arrow:first-child');
+        const rightArrow = document.querySelector('.arrow:last-child');
+        
+        let currentSlide = 0;
+        
+        // Simple placeholder functionality
+        if (rightArrow) {
+            rightArrow.addEventListener('click', () => {
+                currentSlide = (currentSlide + 1) % dots.length;
+                updateCarousel();
+            });
+        }
+        
+        if (leftArrow) {
+            leftArrow.addEventListener('click', () => {
+                currentSlide = (currentSlide - 1 + dots.length) % dots.length;
+                updateCarousel();
+            });
+        }
+        
+        function updateCarousel() {
+            dots.forEach((dot, index) => {
+                if (index === currentSlide) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
