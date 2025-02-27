@@ -194,11 +194,12 @@
     background: #f9f9f9;
     padding: 15px;
     border-radius: 10px;
+    height: 400px;
 }
 
 .project-item img {
-    width: 200px;
-    height: auto;
+    width: 400px;
+    height: 300px;
     margin-right: 20px;
     border-radius: 5px;
 }
