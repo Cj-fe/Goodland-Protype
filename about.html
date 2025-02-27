@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - GoodLand</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="header.css">
+    <style>
+   
+
+      /* About Us Page Specific Styles */
+.page-title {
+    background: linear-gradient(135deg, rgba(199, 216, 199, 0.8) 0%, rgba(25, 58, 26, 0.8) 70%), 
+                url('img/59047739.png') center/cover no-repeat;
+    padding: 80px 10%;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.page-title h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Improves text readability */
+}
+
+        .about-section {
+            padding: 80px 10%;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .about-content {
+            flex: 1;
+        }
+
+        .about-content h2 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .mission-section {
+            background-color: #f9f9f9;
+            padding: 80px 10%;
+        }
+
+        .mission-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .mission-content h2 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .mission-box {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+        }
+
+        .mission-box h3 {
+            color: #FF8C00;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .mission-box p {
+            line-height: 1.8;
+            color: #666;
+        }
+
+        .certifications {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        .certifications h2 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .cert-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .cert-item {
+            width: 200px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .cert-item img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .cert-item h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .cert-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .impact-section {
+            background-color: #4CAF50;
+            padding: 80px 10%;
+            color: white;
+            text-align: center;
+        }
+
+        .impact-section h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .stat-item {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 18px;
+        }
+
+        .read-more-btn {
+            display: inline-block;
+            background-color: white;
+            color: #4CAF50;
+            padding: 12px 30px;
+            margin-top: 40px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .read-more-btn:hover {
+            background-color: #f0f0f0;
+        }
+
+        .partners-section {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        .partners-section h2 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .partners-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .partner-item {
+            width: 220px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .partner-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .partner-item img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .partner-item h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .partner-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .gallery-section {
+            padding: 80px 10%;
+            background-color: #f9f9f9;
+        }
+
+        .gallery-section h2 {
+            color: #4CAF50;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            height: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .team-section {
+            padding: 80px 10%;
+        }
+
+        .team-section h2 {
+            color: #4CAF50;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .team-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 60px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .team-member {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+
+        .member-image {
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .member-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .member-info {
+            padding: 20px;
+        }
+
+        .member-info h4 {
+            font-size: 22px;
+            margin-bottom: 5px;
+            color: #4CAF50;
+        }
+
+        .member-role {
+            font-size: 14px;
+            color: #FF8C00;
+            margin-bottom: 15px;
+        }
+
+        .member-bio {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 60px 10% 30px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .footer-column h3 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .footer-column p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+
+        .footer-contact-item {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .footer-contact-icon {
+            color: #4CAF50;
+            font-size: 18px;
+            margin-right: 10px;
+            min-width: 20px;
+        }
+
+        .footer-links a {
+            display: block;
+            color: #ccc;
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #4CAF50;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 15px;
+        }
+
+        .footer-social a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .footer-social a:hover {
+            background-color: #4CAF50;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #999;
+            font-size: 14px;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <!-- Top Bar with logo, contact info and consultation button -->
+    <div class="top-bar">
+        <div class="logo-container">
+            <img src="481741660_1202479434928856_876828406647000477_n.png" alt="Eco Energy Logo" class="logo-image">
+        </div>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="contact-icon fa-solid fa-phone"></i>
+                <div class="contact-text">
+                    <span class="contact-heading">Call Us Anytime</span>
+                    <span class="contact-detail">(+91) 1800-214-122</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="contact-icon fa-solid fa-envelope"></i>
+                <div class="contact-text">
+                    <span class="contact-heading">Email Us Anytime</span>
+                    <span class="contact-detail">eco@example.com</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="free-consultation">Free Consultation</button>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <div class="navigation">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="methodology.html">Methodology</a></li>
+        </ul>
+
+        <div class="social-search">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+<!-- Page Title Section -->
+<div class="page-title">
+    <h1>Get to Know GoodLand</h1>
+    <nav class="breadcrumb">
+        <a href="index.html" style="color: white !important;">Home</a> / <span>About Us</span>
+    </nav>
+</div>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-content">
+            <h2>What We Do</h2>
+       <p>
+        GOODLand is a platform under Martha Atienza’s Art Lab that develops and applies a creative and collaborative methodology utilized to tackle social, economic and environmental issues on Bantayan Island in the Visayas, Philippines. As a platform, it does this by organizing with communities and collaborating with individuals, collectives, and/or institutions in various fields of expertise. Centered around art projects, it is the main driver throughout GOODLand’s methodological approach to community-based projects (see our Place, People, and Art-based Model). 
+       </p>  </div>
+        <div class="about-image">
+            <img src="/api/placeholder/600/400" alt="GoodLand Initiatives">
+        </div>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="mission-section">
+        <div class="mission-content">
+            <h2>Our Mission & Vision</h2>
+            
+            <div class="mission-box">
+                <h3>Intersection of Art & Resiliency</h3>
+                <p>At GoodLand, we leverage art as a powerful tool to create meaningful community dialogues. These dialogues lead to tangible solutions that address the unique challenges faced by Bantayan Island. Through creative expression and collaboration, we build bridges between different stakeholders and develop innovative approaches to resilience.</p>
+            </div>
+            
+            <div class="mission-box">
+                <h3>Vision Statement</h3>
+                <p>Empowering Bantayan Islanders to enjoy a quality life in an ecologically balanced environment where communities thrive in harmony with nature.</p>
+            </div>
+            
+            <div class="mission-box">
+                <h3>Mission Statement</h3>
+                <p>Using art and collaboration to address social, economic, and environmental issues facing Bantayan Island through sustainable, community-driven solutions that respect local culture and traditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Licenses Section -->
+    <section class="certifications">
+        <h2>Our Certifications & Licenses</h2>
+        <div class="cert-container">
+            <div class="cert-item">
+                <i class="fa-solid fa-certificate" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>NGO Certification</h4>
+                <p>Officially recognized non-profit organization</p>
+            </div>
+            <div class="cert-item">
+                <i class="fa-solid fa-award" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>Environmental License</h4>
+                <p>Approved environmental protection initiatives</p>
+            </div>
+            <div class="cert-item">
+                <i class="fa-solid fa-handshake" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>Community Partnership</h4>
+                <p>Official community engagement certification</p>
+            </div>
+            <div class="cert-item">
+                <i class="fa-solid fa-scroll" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>Legal Operation</h4>
+                <p>Government-approved operations license</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact/Achievements Section -->
+    <section class="impact-section">
+        <h2>Our Impact</h2>
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number">25+</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5,000+</div>
+                <div class="stat-label">People Helped</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">80%</div>
+                <div class="stat-label">Waste Reduction</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Community Partners</div>
+            </div>
+        </div>
+        <a href="#" class="read-more-btn">Read More About Our Projects</a>
+    </section>
+
+    <!-- Partnership Section -->
+    <section class="partners-section">
+        <h2>Our Partners</h2>
+        <div class="partners-container">
+            <div class="partner-item">
+                <i class="fa-solid fa-building" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>Local Government</h4>
+                <p>Supporting community initiatives and providing resources</p>
+            </div>
+            <div class="partner-item">
+                <i class="fa-solid fa-graduation-cap" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>Educational Institutions</h4>
+                <p>Research collaboration and youth engagement</p>
+            </div>
+            <div class="partner-item">
+                <i class="fa-solid fa-globe" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>Environmental NGOs</h4>
+                <p>Joint conservation efforts and awareness campaigns</p>
+            </div>
+            <div class="partner-item">
+                <i class="fa-solid fa-users" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
+                <h4>Community Groups</h4>
+                <p>Grassroots collaboration and local knowledge</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h2>Collage & Memories</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Community Event">
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Art Workshop">
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Environmental Project">
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Team Meeting">
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Beach Cleanup">
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Community Gathering">
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Art Exhibition">
+            </div>
+            <div class="gallery-item">
+                <img src="/api/placeholder/400/300" alt="Youth Program">
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Members Section -->
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <p class="team-intro">GoodLand is powered by a diverse team of passionate individuals dedicated to creating positive change through art and community engagement.</p>
+        
+        <div class="team-container">
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="/api/placeholder/300/300" alt="Martha Atienza">
+                </div>
+                <div class="member-info">
+                    <h4>Martha Atienza</h4>
+                    <div class="member-role">Visual Artist</div>
+                    <p class="member-bio">Visual artist focused on environmental and social issues, using art as a medium for change and community engagement.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="/api/placeholder/300/300" alt="Jake Atienza">
+                </div>
+                <div class="member-info">
+                    <h4>Jake Atienza</h4>
+                    <div class="member-role">Interdisciplinary Researcher</div>
+                    <p class="member-bio">Interdisciplinary researcher and artist exploring the intersection of community development and creative expression.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="/api/placeholder/300/300" alt="Bihiya Warriors">
+                </div>
+                <div class="member-info">
+                    <h4>Bihiya Warriors</h4>
+                    <div class="member-role">Youth-led Community Group</div>
+                    <p class="member-bio">A youth-led community group dedicated to environmental conservation and cultural preservation on Bantayan Island.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="/api/placeholder/300/300" alt="John Ortega">
+                </div>
+                <div class="member-info">
+                    <h4>John Ortega</h4>
+                    <div class="member-role">Community Organizer</div>
+                    <p class="member-bio">Community organizer and radio broadcaster amplifying local voices and facilitating community dialogues.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="/api/placeholder/300/300" alt="Ramon Alontaga">
+                </div>
+                <div class="member-info">
+                    <h4>Ramon Alontaga</h4>
+                    <div class="member-role">Artist</div>
+                    <p class="member-bio">Artist working on mechanical and DIY island tech solutions that address local challenges in sustainable ways.</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="/api/placeholder/300/300" alt="DAKOgamay">
+                </div>
+                <div class="member-info">
+                    <h4>DAKOgamay</h4>
+                    <div class="member-role">Experimental Platform</div>
+                    <p class="member-bio">An experimental platform by Martha & Jake Atienza that explores innovative approaches to community development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About GoodLand</h3>
+                <p>An art-driven NGO focused on creating sustainable solutions for social, economic, and environmental challenges on Bantayan Island through community collaboration and creative expression.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <div class="footer-contact-item">
+                    <i class="footer-contact-icon fa-solid fa-location-dot"></i>
+                    <p>Bantayan Island, Cebu, Philippines</p>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="footer-contact-icon fa-solid fa-phone"></i>
+                    <p>(+91) 1800-214-122</p>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="footer-contact-icon fa-solid fa-envelope"></i>
+                    <p>eco@example.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="#">Methodology</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Get Involved</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 GoodLand. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
