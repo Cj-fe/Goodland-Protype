@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Energy Navigation</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="project.css">
+    <style>
+        /* Carousel Styles - Modified for full height */
+        .carousel {
+            position: relative;
+            width: 100%;
+            height: calc(100vh - 130px); /* 70px top-bar + 60px navigation */
+            overflow: hidden;
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('image.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+        }
+
+        /* Black overlay for carousel */
+        .carousel-slide:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Transparent black overlay - adjust the 0.4 value to control darkness */
+            z-index: 1;
+        }
+
+        /* Tree Globe Image Overlay */
+        .tree-globe-overlay {
+            position: absolute;
+            width: 500px; /* Adjust size as needed */
+            height: auto;
+            top: 50%;
+            right: 10%;
+            transform: translateY(-50%);
+            z-index: 3; /* Above the carousel content and black overlay */
+        }
+
+        .carousel-content {
+            max-width: 600px;
+            color: white;
+            position: relative;
+            z-index: 2; /* Place content above the overlay */
+        }
+
+        .carousel-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .carousel-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .carousel-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-secondary {
+            background-color: #FF8C00;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 2; /* Place navigation above the overlay */
+        }
+
+        .carousel-nav-button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+
+        .carousel-nav-button.active {
+            background-color: white;
+        }
+
+        .carousel-arrows {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            pointer-events: none;
+            z-index: 2; /* Place arrows above the overlay */
+        }
+
+        .arrow {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            pointer-events: auto;
+        }
+
+        .arrow i {
+            color: white;
+            font-size: 24px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- Top Bar with logo, contact info and consultation button -->
+    <div class="top-bar">
+        <div class="logo-container">
+            <div class="logo-container">
+                <img src="481741660_1202479434928856_876828406647000477_n.png" alt="Eco Energy Logo" class="logo-image">
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="contact-icon fa-solid fa-phone"></i>
+                <div class="contact-text">
+                    <span class="contact-heading">Call Us Anytime</span>
+                    <span class="contact-detail">(+91) 1800-214-122</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="contact-icon fa-solid fa-envelope"></i>
+                <div class="contact-text">
+                    <span class="contact-heading">Email Us Anytime</span>
+                    <span class="contact-detail">eco@example.com</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="free-consultation">Free Consultation</button>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <div class="navigation">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Methodology</a></li>
+        </ul>
+
+        <div class="social-search">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>OUR PROJECTS</h1>
+        <p>Goodland’s initiatives in sustainable development and environmental conservation.</p>
+    </div>
+
+    <div class="projects">
+        <div class="project-item">
+            <div class="project-content">
+                <h3>Bantayan Battery Solution</h3>
+                <p>Brief text about the battery solution initiative.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <img src="bantayan.png" alt="Bantayan Battery Solution">
+
+        </div>
+
+        <div class="project-item">
+            <img src="esawod.jpg" alt="ESAWOD">
+            <div class="project-content">
+                <h3>ESAWOD</h3>
+                <p>Brief text about the ESAWOD initiative.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="marine.jpg" alt="Marine Protected Area - Mambacayao">
+            <div class="project-content">
+                <h3>Marine Protected Area - Mambacayao</h3>
+                <p>Brief text about marine conservation efforts in Mambacayao.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="watershed.jpg" alt="Watershed Protected Zone">
+            <div class="project-content">
+                <h3>Watershed Protected Zone</h3>
+                <p>Brief text about watershed conservation initiatives.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="adlaw.jpg" alt="Adlaw Sang Mananagat">
+            <div class="project-content">
+                <h3>Adlaw Sang Mananagat</h3>
+                <p>Brief text about the Adlaw Sang Mananagat event.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="radio.jpg" alt="Radio and Podcast">
+            <div class="project-content">
+                <h3>Radio and Podcast</h3>
+                <p>Brief text about Goodland’s radio and podcast efforts.</p>
+                <a href="#" class="btn">Watch Episodes</a>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
