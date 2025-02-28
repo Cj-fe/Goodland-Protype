@@ -371,9 +371,9 @@
         </div>
     </section>
 
-    <!-- News-Style Testimonial Section -->
-    <section id="testimonials" class="testimonials-section">
-        <div class="testimonials-header">
+    <!-- Stories Section -->
+    <section id="stories" class="stories-section">
+        <div class="stories-header">
             <h2>Community Stories</h2>
             <p>Latest updates and experiences from our community members</p>
         </div>
@@ -385,108 +385,182 @@
             <button class="category-button" data-category="video">Video Features</button>
         </div>
 
-        <div class="testimonials-grid-container">
-            <!-- News Card Grid -->
-            <div class="testimonials-grid">
-                <!-- News Card 1 -->
-                <div class="news-card" data-category="success">
-                    <div class="news-card-image">
-                        <img src="https://picsum.photos/300/207" alt="Community Project">
-                        <div class="news-card-date">Oct 15, 2024</div>
-                    </div>
-                    <div class="news-card-content">
-                        <div class="news-card-category">Success Story</div>
-                        <h3 class="news-card-title">Community Transformation through Sustainable Solutions</h3>
-                        <p class="news-card-excerpt">
-                            "Eco Energy has transformed our community with sustainable solutions. Their projects have
-                            empowered us to take charge of our environment."
-                        </p>
-                        <div class="news-card-footer">
-                            <div class="news-card-author">
-                                <img src="https://picsum.photos/300/207" alt="John Doe">
-                                <span>John Doe</span>
+        <div class="stories-grid-container">
+            <!-- Stories Carousel -->
+            <div class="stories-carousel">
+                <div class="stories-carousel-track">
+                    <!-- Slide 1 -->
+                    <div class="stories-carousel-slide active">
+                        <div class="stories-grid">
+                            <!-- Story Card 1 -->
+                            <div class="stories-card" data-category="success">
+                                <div class="stories-card-image">
+                                    <img src="https://picsum.photos/300/207" alt="Community Project">
+                                    <div class="stories-card-date">Oct 15, 2024</div>
+                                </div>
+                                <div class="stories-card-content">
+                                    <div class="stories-card-category">Success Story</div>
+                                    <h3 class="stories-card-title">Community Transformation through Sustainable
+                                        Solutions</h3>
+                                    <p class="stories-card-excerpt">
+                                        "Eco Energy has transformed our community with sustainable solutions. Their
+                                        projects have
+                                        empowered us to take charge of our environment."
+                                    </p>
+                                    <div class="stories-card-footer">
+                                        <div class="stories-card-author">
+                                            <img src="https://picsum.photos/300/207" alt="John Doe">
+                                            <span>John Doe</span>
+                                        </div>
+                                        <a href="#" class="read-more-link">Read More</a>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="#" class="read-more-link">Read More</a>
+
+                            <!-- Story Card 2 -->
+                            <div class="stories-card" data-category="success">
+                                <div class="stories-card-image">
+                                    <img src="https://picsum.photos/300/208" alt="Community Project">
+                                    <div class="stories-card-date">Oct 10, 2024</div>
+                                </div>
+                                <div class="stories-card-content">
+                                    <div class="stories-card-category">Success Story</div>
+                                    <h3 class="stories-card-title">Improving Quality of Life through Community
+                                        Initiatives</h3>
+                                    <p class="stories-card-excerpt">
+                                        "The initiatives by Eco Energy have greatly improved our quality of life and
+                                        brought us
+                                        closer as a community."
+                                    </p>
+                                    <div class="stories-card-footer">
+                                        <div class="stories-card-author">
+                                            <img src="https://picsum.photos/300/208" alt="Jane Doe">
+                                            <span>Jane Doe</span>
+                                        </div>
+                                        <a href="#" class="read-more-link">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Story Card 3 (Video) -->
+                            <div class="stories-card" data-category="video">
+                                <div class="stories-card-image">
+                                    <div class="video-thumbnail">
+                                        <img src="https://picsum.photos/300/209" alt="Video Thumbnail">
+                                        <div class="play-button">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                    <div class="stories-card-date">Oct 8, 2024</div>
+                                </div>
+                                <div class="stories-card-content">
+                                    <div class="stories-card-category">Video Feature</div>
+                                    <h3 class="stories-card-title">Jane Smith Shares Her Sustainability Journey</h3>
+                                    <p class="stories-card-excerpt">
+                                        Watch Jane's inspiring story about implementing renewable energy solutions in
+                                        her
+                                        neighborhood.
+                                    </p>
+                                    <div class="stories-card-footer">
+                                        <div class="stories-card-author">
+                                            <img src="https://picsum.photos/300/209" alt="Jane Smith">
+                                            <span>Jane Smith</span>
+                                        </div>
+                                        <a href="#" class="watch-video-link">Watch Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="stories-carousel-slide">
+                        <div class="stories-grid">
+                            <!-- Story Card 4 (Video) -->
+                            <div class="stories-card" data-category="video">
+                                <div class="stories-card-image">
+                                    <div class="video-thumbnail">
+                                        <img src="https://picsum.photos/300/210" alt="Video Thumbnail">
+                                        <div class="play-button">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                    <div class="stories-card-date">Oct 5, 2024</div>
+                                </div>
+                                <div class="stories-card-content">
+                                    <div class="stories-card-category">Video Feature</div>
+                                    <h3 class="stories-card-title">Mark Johnson's Community Solar Project</h3>
+                                    <p class="stories-card-excerpt">
+                                        Mark discusses how his neighborhood collaborated to implement a shared solar
+                                        panel system.
+                                    </p>
+                                    <div class="stories-card-footer">
+                                        <div class="stories-card-author">
+                                            <img src="https://picsum.photos/300/210" alt="Mark Johnson">
+                                            <span>Mark Johnson</span>
+                                        </div>
+                                        <a href="#" class="watch-video-link">Watch Video</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Add two more story cards to fill the second slide -->
+                            <div class="stories-card" data-category="success">
+                                <div class="stories-card-image">
+                                    <img src="https://picsum.photos/300/211" alt="Community Project">
+                                    <div class="stories-card-date">Sep 30, 2024</div>
+                                </div>
+                                <div class="stories-card-content">
+                                    <div class="stories-card-category">Success Story</div>
+                                    <h3 class="stories-card-title">Urban Gardening Success with Renewable Resources</h3>
+                                    <p class="stories-card-excerpt">
+                                        "Our urban gardening project now uses solar-powered irrigation systems, reducing
+                                        water consumption by 40%."
+                                    </p>
+                                    <div class="stories-card-footer">
+                                        <div class="stories-card-author">
+                                            <img src="https://picsum.photos/300/211" alt="Emma Wilson">
+                                            <span>Emma Wilson</span>
+                                        </div>
+                                        <a href="#" class="read-more-link">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stories-card" data-category="video">
+                                <div class="stories-card-image">
+                                    <div class="video-thumbnail">
+                                        <img src="https://picsum.photos/300/212" alt="Video Thumbnail">
+                                        <div class="play-button">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                    <div class="stories-card-date">Sep 25, 2024</div>
+                                </div>
+                                <div class="stories-card-content">
+                                    <div class="stories-card-category">Video Feature</div>
+                                    <h3 class="stories-card-title">Sustainable Energy Workshop Highlights</h3>
+                                    <p class="stories-card-excerpt">
+                                        Watch the highlights from our recent workshop on implementing sustainable energy
+                                        solutions in residential areas.
+                                    </p>
+                                    <div class="stories-card-footer">
+                                        <div class="stories-card-author">
+                                            <img src="https://picsum.photos/300/212" alt="David Chen">
+                                            <span>David Chen</span>
+                                        </div>
+                                        <a href="#" class="watch-video-link">Watch Video</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- News Card 2 -->
-                <div class="news-card" data-category="success">
-                    <div class="news-card-image">
-                        <img src="https://picsum.photos/300/208" alt="Community Project">
-                        <div class="news-card-date">Oct 10, 2024</div>
-                    </div>
-                    <div class="news-card-content">
-                        <div class="news-card-category">Success Story</div>
-                        <h3 class="news-card-title">Improving Quality of Life through Community Initiatives</h3>
-                        <p class="news-card-excerpt">
-                            "The initiatives by Eco Energy have greatly improved our quality of life and brought us
-                            closer as a community."
-                        </p>
-                        <div class="news-card-footer">
-                            <div class="news-card-author">
-                                <img src="https://picsum.photos/300/208" alt="Jane Doe">
-                                <span>Jane Doe</span>
-                            </div>
-                            <a href="#" class="read-more-link">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- News Card 3 (Video) -->
-                <div class="news-card" data-category="video">
-                    <div class="news-card-image">
-                        <div class="video-thumbnail">
-                            <img src="https://picsum.photos/300/209" alt="Video Thumbnail">
-                            <div class="play-button">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div class="news-card-date">Oct 8, 2024</div>
-                    </div>
-                    <div class="news-card-content">
-                        <div class="news-card-category">Video Feature</div>
-                        <h3 class="news-card-title">Jane Smith Shares Her Sustainability Journey</h3>
-                        <p class="news-card-excerpt">
-                            Watch Jane's inspiring story about implementing renewable energy solutions in her
-                            neighborhood.
-                        </p>
-                        <div class="news-card-footer">
-                            <div class="news-card-author">
-                                <img src="https://picsum.photos/300/209" alt="Jane Smith">
-                                <span>Jane Smith</span>
-                            </div>
-                            <a href="#" class="watch-video-link">Watch Video</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- News Card 4 (Video) -->
-                <div class="news-card" data-category="video">
-                    <div class="news-card-image">
-                        <div class="video-thumbnail">
-                            <img src="https://picsum.photos/300/210" alt="Video Thumbnail">
-                            <div class="play-button">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div class="news-card-date">Oct 5, 2024</div>
-                    </div>
-                    <div class="news-card-content">
-                        <div class="news-card-category">Video Feature</div>
-                        <h3 class="news-card-title">Mark Johnson's Community Solar Project</h3>
-                        <p class="news-card-excerpt">
-                            Mark discusses how his neighborhood collaborated to implement a shared solar panel system.
-                        </p>
-                        <div class="news-card-footer">
-                            <div class="news-card-author">
-                                <img src="https://picsum.photos/300/210" alt="Mark Johnson">
-                                <span>Mark Johnson</span>
-                            </div>
-                            <a href="#" class="watch-video-link">Watch Video</a>
-                        </div>
-                    </div>
+                <!-- Carousel Dots Navigation -->
+                <div class="stories-carousel-dots">
+                    <button class="carousel-dot active" data-slide="0"></button>
+                    <button class="carousel-dot" data-slide="1"></button>
                 </div>
             </div>
         </div>

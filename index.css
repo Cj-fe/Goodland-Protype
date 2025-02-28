@@ -834,27 +834,28 @@
     grid-template-columns: 1fr;
   }
 }
-/*==================== TESTIMONIALS SECTION START ====================*/
-.testimonials-section {
+
+/*==================== Stories SECTION START ====================*/
+.stories-section {
   padding: 80px 0;
   background-color: #f8f9fa;
   position: relative;
 }
 
-.testimonials-header {
+.stories-header {
   text-align: center;
   max-width: 800px;
   margin: 0 auto 40px;
 }
 
-.testimonials-header h2 {
+.stories-header h2 {
   color: #273556;
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
-.testimonials-header p {
+.stories-header p {
   color: #6c757d;
   font-size: 18px;
   line-height: 1.5;
@@ -884,21 +885,61 @@
   color: #fff;
 }
 
-.testimonials-grid-container {
+.stories-grid-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.testimonials-grid {
+/* Carousel Specific Styles */
+.stories-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.stories-carousel-track {
+  position: relative;
+}
+
+.stories-carousel-slide {
+  display: none;
+  transition: opacity 0.5s ease;
+}
+
+.stories-carousel-slide.active {
+  display: block;
+}
+
+.stories-carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #d1d1d1;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-dot.active {
+  background-color: #273556;
+}
+
+/* Original Card Grid Styles */
+.stories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
-.news-card {
+.stories-card {
   background-color: white;
-  
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -906,29 +947,29 @@
   flex-direction: column;
 }
 
-.news-card:hover {
+.stories-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.news-card-image {
+.stories-card-image {
   position: relative;
   height: 200px;
   overflow: hidden;
 }
 
-.news-card-image img {
+.stories-card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s;
 }
 
-.news-card:hover .news-card-image img {
+.stories-card:hover .stories-card-image img {
   transform: scale(1.05);
 }
 
-.news-card-date {
+.stories-card-date {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -940,14 +981,14 @@
   font-weight: 500;
 }
 
-.news-card-content {
+.stories-card-content {
   padding: 20px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
-.news-card-category {
+.stories-card-category {
   color: #4caf50;
   text-transform: uppercase;
   font-size: 12px;
@@ -956,7 +997,7 @@
   letter-spacing: 1px;
 }
 
-.news-card-title {
+.stories-card-title {
   color: #273556;
   font-size: 18px;
   font-weight: 600;
@@ -964,7 +1005,7 @@
   line-height: 1.4;
 }
 
-.news-card-excerpt {
+.stories-card-excerpt {
   color: #6c757d;
   font-size: 14px;
   line-height: 1.6;
@@ -972,26 +1013,26 @@
   flex-grow: 1;
 }
 
-.news-card-footer {
+.stories-card-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
 }
 
-.news-card-author {
+.stories-card-author {
   display: flex;
   align-items: center;
 }
 
-.news-card-author img {
+.stories-card-author img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-right: 8px;
 }
 
-.news-card-author span {
+.stories-card-author span {
   font-size: 13px;
   color: #495057;
   font-weight: 500;
@@ -1042,26 +1083,28 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 768px) {
-  .testimonials-grid {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+@media (max-width: 992px) {
+  .stories-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .testimonials-header h2 {
+@media (max-width: 768px) {
+  .stories-header h2 {
     font-size: 28px;
   }
 
-  .testimonials-header p {
+  .stories-header p {
     font-size: 16px;
   }
 }
 
 @media (max-width: 576px) {
-  .testimonials-grid {
+  .stories-grid {
     grid-template-columns: 1fr;
   }
 }
-/*==================== TESTIMONIALS SECTION END ====================*/
+/*==================== Stories SECTION END ====================*/
 
 /*==================== RESPONSIVE STYLES START ====================*/
 @media (max-width: 1024px) {
