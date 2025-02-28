@@ -23,23 +23,37 @@
     <h1>Get To Know GoodLand</h1>
   <p>Home / About Us</p>
 </div>
-<!-- About Section with Soft Shadows & Floating Effect -->
-<section class="max-w-6xl mx-auto px-6 py-16 relative">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        <div class="p-8 bg-white rounded-xl shadow-lg backdrop-blur-lg bg-opacity-80 border border-gray-300 transform hover:scale-105 transition-transform duration-300">
-            <h2 class="text-4xl font-semibold text-gray-900">What We Do</h2>
-            <p class="text-lg text-gray-700 mt-4">
+<!-- About Section with Enhanced Header & Floating Effect -->
+<section class="max-w-7xl mx-auto px-6 py-16 relative">
+    <!-- Section Header -->
+    <div class="text-center mb-12">
+        <h2 class="text-5xl font-extrabold text-gray-900 relative inline-block">
+            What We Do
+            <span class="block w-24 h-1 bg-[#0097b2] rounded-md absolute left-1/2 transform -translate-x-1/2 bottom-[-10px]"></span>
+        </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <!-- Content Box -->
+        <div class="p-8 bg-white rounded-xl shadow-xl backdrop-blur-lg bg-opacity-80 border border-gray-300 transform hover:scale-105 transition-transform duration-300">
+            <p class="text-lg text-gray-700 leading-relaxed">
                 GoodLand is an art-driven NGO under Martha Atienza’s Art Lab, focusing on community collaborations 
                 for social, economic, and environmental solutions on Bantayan Island. We follow the 
                 <span class="font-semibold">"Place, People, and Art-based Model"</span> to foster sustainable change.
             </p>
+            <a href="#" class="inline-block mt-6 bg-[#193A1A] text-white px-6 py-3 rounded-md font-semibold text-lg transition-all duration-300 hover:bg-[#2c5a2d] hover:-translate-y-1 hover:shadow-lg">
+                Learn More <i class="fas fa-arrow-right ml-2"></i>
+            </a>
         </div>
+
+        <!-- Image with Glow Effect -->
         <div class="relative">
             <img src="img/bateri.png" alt="GoodLand Initiative" class="rounded-xl shadow-xl transform hover:scale-105 transition-transform duration-300">
-            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent blur-xl opacity-50"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent blur-2xl opacity-50"></div>
         </div>
     </div>
 </section>
+
 <!-- Mission Statement with Gradient Glow -->
 <section class="relative py-16 bg-gray-900 text-white">
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.1),_transparent)]"></div>

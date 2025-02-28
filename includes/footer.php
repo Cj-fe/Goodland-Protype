@@ -5,11 +5,10 @@
     <!-- <img src="img/480521352_1748505962663217_598372962596217603_n.png" 
          alt="GoodLand Logo" 
          class="footer-logo w-24 md:w-32 mb-4"> -->
-         <h1 style="color: teal !important; font-size: 40px; font-weight: bold;" >GOODLAND</h1>
+         <h1 style="color: teal !important; font-size: 40px; font-weight: bold;" >GOODLAND</h1><BR></BR>
 
     <p class="text-sm md:text-base text-gray-300">
    <span class="fas map"></span> 37th Street Purok Kulo Dos, Atop-Atop, Bantayan, Cebu
-    </p>
     <p class="mt-4 text-sm text-gray-400">
         You don't have to follow us into the ocean, but you can follow us on social media.
     </p>
