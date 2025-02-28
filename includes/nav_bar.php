@@ -22,7 +22,6 @@
             </div>
         </div>
 
-        <button class="free-consultation">Free Consultation</button>
     </div>
 
     <!-- Main Navigation Bar -->

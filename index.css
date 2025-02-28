@@ -371,7 +371,6 @@
 }
 
 
-
 /*==================== EVENTS SECTION START ====================*/
 .events-section {
   padding: 80px 0;
@@ -409,7 +408,7 @@
 .events-carousel {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 25px;
   transition: transform 0.5s ease;
 }
 
@@ -417,9 +416,9 @@
   background-color: white;
   
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s, box-shadow 0.3s;
-  height: 500px;
+  height: 380px; /* Reduced height to match image */
   display: flex;
   flex-direction: column;
 }
@@ -431,7 +430,7 @@
 
 .event-image {
   position: relative;
-  height: 300px;
+  height: 180px; /* Reduced height */
   overflow: hidden;
 }
 
@@ -452,12 +451,12 @@
   right: 15px;
   background-color: #ff8c00;
   color: white;
-  padding: 10px 15px;
+  padding: 10px;
   text-align: center;
-  border-radius: 4px;
   display: flex;
   flex-direction: column;
   font-weight: bold;
+  width: 60px; /* Fixed width */
 }
 
 .event-date .day {
@@ -470,18 +469,17 @@
 }
 
 .event-details {
-  padding: 20px;
+  padding: 15px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .event-time,
 .event-location {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #666;
   font-size: 14px;
 }
@@ -499,9 +497,9 @@
 }
 
 .event-title {
-  font-size: 18px;
+  font-size: 16px; /* Reduced font size */
   color: #273556;
-  margin-top: 15px;
+  margin-top: 10px;
   font-weight: 600;
   line-height: 1.4;
   transition: color 0.3s;
@@ -517,8 +515,8 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
+  width: 40px; /* Reduced size */
+  height: 40px; /* Reduced size */
   border-radius: 50%;
   background-color: white;
   border: none;
