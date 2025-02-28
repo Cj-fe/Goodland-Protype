@@ -33,7 +33,7 @@
         </div>
 
         <div class="project-item">
-            <img src="esawod.jpg" alt="ESAWOD">
+            <img src="img/esawod.png" alt="ESAWOD">
             <div class="project-content">
                 <h3>ESAWOD</h3>
                 <p>Brief text about the ESAWOD initiative.</p>
