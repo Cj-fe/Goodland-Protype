@@ -47,13 +47,13 @@
                 <p>Brief text about marine conservation efforts in Mambacayao.</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
-            <img src="marine.jpg" alt="Marine Protected Area - Mambacayao">
+            <img src="img/marine.jpg" alt="Marine Protected Area - Mambacayao">
 
         </div>
         
 
         <div class="project-item">
-            <img src="watershed.jpg" alt="Watershed Protected Zone">
+            <img src="img/watershed.jpg" alt="Watershed Protected Zone">
             <div class="project-content">
                 <h3>Watershed Protected Zone</h3>
                 <p>Brief text about watershed conservation initiatives.</p>
@@ -67,11 +67,11 @@
                 <p>Brief text about the Adlaw Sang Mananagat event.</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
-            <img src="adlaw.jpg" alt="Adlaw Sang Mananagat">
+            <img src="img/adlaw.jpg" alt="Adlaw Sang Mananagat">
         </div>
 
         <div class="project-item">
-            <img src="radio.png" alt="Radio and Podcast">
+            <img src="img/radio.png" alt="Radio and Podcast">
             <div class="project-content">
                 <h3>Radio and Podcast</h3>
                 <p>Brief text about Goodland’s radio and podcast efforts.</p>
