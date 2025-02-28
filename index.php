@@ -388,6 +388,7 @@
         <div class="stories-grid-container">
             <!-- Stories Carousel -->
             <div class="stories-carousel">
+                <button class="prev-arrow">&#10094;</button> <!-- Left arrow -->
                 <div class="stories-carousel-track">
                     <!-- Slide 1 -->
                     <div class="stories-carousel-slide active">
@@ -400,12 +401,9 @@
                                 </div>
                                 <div class="stories-card-content">
                                     <div class="stories-card-category">Success Story</div>
-                                    <h3 class="stories-card-title">Community Transformation through Sustainable
-                                        Solutions</h3>
+                                    <h3 class="stories-card-title">Community Transformation through Sustainable Solutions</h3>
                                     <p class="stories-card-excerpt">
-                                        "Eco Energy has transformed our community with sustainable solutions. Their
-                                        projects have
-                                        empowered us to take charge of our environment."
+                                        "Eco Energy has transformed our community with sustainable solutions. Their projects have empowered us to take charge of our environment."
                                     </p>
                                     <div class="stories-card-footer">
                                         <div class="stories-card-author">
@@ -425,12 +423,9 @@
                                 </div>
                                 <div class="stories-card-content">
                                     <div class="stories-card-category">Success Story</div>
-                                    <h3 class="stories-card-title">Improving Quality of Life through Community
-                                        Initiatives</h3>
+                                    <h3 class="stories-card-title">Improving Quality of Life through Community Initiatives</h3>
                                     <p class="stories-card-excerpt">
-                                        "The initiatives by Eco Energy have greatly improved our quality of life and
-                                        brought us
-                                        closer as a community."
+                                        "The initiatives by Eco Energy have greatly improved our quality of life and brought us closer as a community."
                                     </p>
                                     <div class="stories-card-footer">
                                         <div class="stories-card-author">
@@ -457,9 +452,7 @@
                                     <div class="stories-card-category">Video Feature</div>
                                     <h3 class="stories-card-title">Jane Smith Shares Her Sustainability Journey</h3>
                                     <p class="stories-card-excerpt">
-                                        Watch Jane's inspiring story about implementing renewable energy solutions in
-                                        her
-                                        neighborhood.
+                                        Watch Jane's inspiring story about implementing renewable energy solutions in her neighborhood.
                                     </p>
                                     <div class="stories-card-footer">
                                         <div class="stories-card-author">
@@ -491,8 +484,7 @@
                                     <div class="stories-card-category">Video Feature</div>
                                     <h3 class="stories-card-title">Mark Johnson's Community Solar Project</h3>
                                     <p class="stories-card-excerpt">
-                                        Mark discusses how his neighborhood collaborated to implement a shared solar
-                                        panel system.
+                                        Mark discusses how his neighborhood collaborated to implement a shared solar panel system.
                                     </p>
                                     <div class="stories-card-footer">
                                         <div class="stories-card-author">
@@ -504,7 +496,7 @@
                                 </div>
                             </div>
 
-                            <!-- Add two more story cards to fill the second slide -->
+                            <!-- Additional Story Cards -->
                             <div class="stories-card" data-category="success">
                                 <div class="stories-card-image">
                                     <img src="https://picsum.photos/300/211" alt="Community Project">
@@ -514,8 +506,7 @@
                                     <div class="stories-card-category">Success Story</div>
                                     <h3 class="stories-card-title">Urban Gardening Success with Renewable Resources</h3>
                                     <p class="stories-card-excerpt">
-                                        "Our urban gardening project now uses solar-powered irrigation systems, reducing
-                                        water consumption by 40%."
+                                        "Our urban gardening project now uses solar-powered irrigation systems, reducing water consumption by 40%."
                                     </p>
                                     <div class="stories-card-footer">
                                         <div class="stories-card-author">
@@ -541,8 +532,7 @@
                                     <div class="stories-card-category">Video Feature</div>
                                     <h3 class="stories-card-title">Sustainable Energy Workshop Highlights</h3>
                                     <p class="stories-card-excerpt">
-                                        Watch the highlights from our recent workshop on implementing sustainable energy
-                                        solutions in residential areas.
+                                        Watch the highlights from our recent workshop on implementing sustainable energy solutions in residential areas.
                                     </p>
                                     <div class="stories-card-footer">
                                         <div class="stories-card-author">
@@ -556,6 +546,7 @@
                         </div>
                     </div>
                 </div>
+                <button class="next-arrow">&#10095;</button> <!-- Right arrow -->
 
                 <!-- Carousel Dots Navigation -->
                 <div class="stories-carousel-dots">

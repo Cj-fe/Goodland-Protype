@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(199, 216, 199, 0.8) 0%, rgba(25, 58, 26, 0.8) 70%),
+                url('img/bateri.png') no-repeat center center/cover;
+    color: rgb(251, 248, 248);
+    padding: 100px 20px;
+    height: 300px;
+}
+
+.hero-section h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+}
+
+.hero-section h1::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: #FF8C00;
+    border-radius: 5px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 10px auto 0;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.banner-image {
+    width: 100vw;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.banner-quote {
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+.cta-section {
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Adds space between icon and text */
+    padding: 12px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn svg {
+    fill: white; /* Ensures the icon color matches the text */
+}
+
+
+/* Button Primary */
+.btn-primary {
+    background-color: #4CAF50;
+    color: white; /* Changed font color to white */
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    max-width: 250px; /* Adjust this value as needed */
+    text-align: center;
+}
+
+
+
+
+.issue-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    color: #333;
+}
+
+.solution-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    color: #333;
+}
+
+.issue-content {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    color: black;
+    justify-content: space-between; /* Ensures text and image are properly spaced */
+}
+
+.issue-section h2 {
+    color: #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.issue-content p {
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    flex: 1; /* Allows text to take up available space */
+    margin-right: 100px; /* Ensures space between text and image */
+}
+
+.issue-content img {
+    max-width: 350px; /* Limits image size */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1); /* Adds depth */
+    margin-left: 20px; /* Creates space between text and image */
+}
+
+
+.solution-content {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    color: black;
+    justify-content: space-between; /* Ensures text and image are properly spaced */
+}
+
+.solution-section h2 {
+    color: #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.solution-content p {
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 100px;
+    flex: 1; /* Allows text to take up available space */
+}
+
+.solution-content img {
+    max-width: 350px; /* Limits image size */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1); /* Adds depth */
+    margin-left: 20px; /* Creates space between text and image */
+}

@@ -1083,6 +1083,81 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
+/* Carousel Specific Styles */
+.stories-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.stories-carousel-track {
+  position: relative;
+}
+
+.stories-carousel-slide {
+  display: none;
+  transition: opacity 0.5s ease;
+}
+
+.stories-carousel-slide.active {
+  display: block;
+}
+
+.stories-carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #d1d1d1;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-dot.active {
+  background-color: #273556;
+}
+
+/* Navigation Buttons */
+.prev-arrow,
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 24px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
 @media (max-width: 992px) {
   .stories-grid {
     grid-template-columns: repeat(2, 1fr);
