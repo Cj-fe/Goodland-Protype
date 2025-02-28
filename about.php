@@ -4,97 +4,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco Energy Navigation</title>
+    <title>About Us - GoodLand</title>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="includes/footer.css">
     <link rel="stylesheet" href="projects.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <!-- Top Bar with logo, contact info and consultation button -->
-    <?php include 'includes/nav_bar.php'?>
+<body class="bg-gray-100">
 
-    <div class="hero">
-        <h1>OUR PROJECTS</h1>
-        <p>Goodland’s initiatives in sustainable development and environmental conservation.</p>
-    </div>
+   <!-- Top Bar with logo, contact info and consultation button -->
+   <?php include 'includes/nav_bar.php'?>
 
-    <div class="projects">
-        <div class="project-item">
-            <div class="project-content">
-                <h3>Bantayan Battery Solution</h3>
-                <h1>Single-Use Batteries are killing the finances of our local fisherfolk and our shorelines</h1>
-                <p>In the municipality of Bantayan alone, there are over 700 compressor-diving fishermen. Shockingly, they discard <strong>over half a million dry-cell batteries</strong> into the ocean every year. But we've engineered a solution; a powerful solar solution that promises to not only protect our planet but also ease the financial burden on the fishermen.</p>
-                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <img src="img/bantayan.png" alt="Bantayan Battery Solution">
-    </div>
-
-
-        <div class="project-item">
-            <img src="img/esawod.png" alt="ESAWOD">
-            <div class="project-content">
-                <h3>ESAWOD</h3>
-                <p>Brief text about the ESAWOD initiative.</p>
-                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+<div class="hero">
+    <h1>GET TO KNOW GOODLAND</h1>
+  <p>Home / About Us</p>
+</div>
+<!-- About Section with Soft Shadows & Floating Effect -->
+<section class="max-w-6xl mx-auto px-6 py-16 relative">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div class="p-8 bg-white rounded-xl shadow-lg backdrop-blur-lg bg-opacity-80 border border-gray-300 transform hover:scale-105 transition-transform duration-300">
+            <h2 class="text-4xl font-semibold text-gray-900">What We Do</h2>
+            <p class="text-lg text-gray-700 mt-4">
+                GoodLand is an art-driven NGO under Martha Atienza’s Art Lab, focusing on community collaborations 
+                for social, economic, and environmental solutions on Bantayan Island. We follow the 
+                <span class="font-semibold">"Place, People, and Art-based Model"</span> to foster sustainable change.
+            </p>
         </div>
-
-        <div class="project-item">
-            <div class="project-content">
-                <h3>Marine Protected Area - Mambacayao</h3>
-                <h1>​One Tiny Island, One Big Passion.</h1>
-                <p>What can you do when it feels like the odds are stacked against you? Group together, unify in thought and <strong>stack higher.</strong> For the residents of Mambacayao Daku, that's exactly what they're doing. In a race to ensure their land and livelihoods aren't destroyed for themselves and generations to come, we've formed two new GOODland Branches; one for the Adults and one for the youth.
-                    <br>With two generations collaborating toward a common goal, their vision is clear: to preserve their way of life by nurturing and responsibly managing their natural environment.</p>
-                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <img src="img/marine.jpg" alt="Marine Protected Area - Mambacayao">
-
-        </div>
-        
-
-        <div class="project-item">
-            <img src="img/watershed.jpg" alt="Watershed Protected Zone">
-            <div class="project-content">
-                <h3>Watershed Protected Zone</h3>
-                <h1>Watershed Protected Area: Bihiya, Atop-Atop</h1>
-                <p>The Bihiya Warriors, a group of young locals from Bantayan Island, have come together with a shared goal: to protect their island's oldest and deepest watershed. Their mission is fueled by a deep connection to their heritage and a desire to safeguard the natural resources vital to their community's well-being.
-                    <br>​With a passion for learning and a commitment to spreading awareness, these youth have launched various activities aimed at fulfilling their mission. Click below to explore the inspiring endeavors they've been leading!</p>
-                    <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </div>
-
-        <div class="project-item">
-            <div class="project-content">
-                <h3>Adlaw Sang Mananagat - "Fisherfolks Day"</h3>
-                <h1>Alone we can do little, but together we can do anything.</h1>
-                <p>Join us for Fisherfolk Day, a gathering to unite the sea communities of the Municipality of Bantayan for a brighter future.</p>
-                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <img src="img/adlaw.jpg" alt="Adlaw Sang Mananagat">
-        </div>
-
-        <div class="project-item">
-            <img src="img/radio.png" alt="Radio and Podcast">
-            <div class="project-content">
-                <h3>Radio and Podcast</h3>
-                <h1>Using old-school methods to spread a new-school of thought about the environment.</h1>
-                <p>Education lays the groundwork for enduring transformation, as societal progress begins with enlightenment on an individual level.
-​                   <br>GOODLand Radio & Podcast serves as a valuable platform, disseminating essential yet often overlooked information about local laws and rights, the significance of environmental preservation, and beyond!</p>
-                <a href="https://www.youtube.com/watch?v=tqYuAizG0vE&list=PLBCs9XlJUSmMrKePNSMrLkihfO6Eg6Rzf" class="btn" target="_blank" rel="noopener noreferrer">
-                    Watch Episodes
-                </a>
-                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+        <div class="relative">
+            <img src="img/bateri.png" alt="GoodLand Initiative" class="rounded-xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent blur-xl opacity-50"></div>
         </div>
     </div>
+</section>
+<!-- Mission Statement with Gradient Glow -->
+<section class="relative py-16 bg-gray-900 text-white">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.1),_transparent)]"></div>
+    <div class="max-w-6xl mx-auto px-6 text-center relative z-10">
+        <h2 class="text-4xl font-semibold text-white drop-shadow-lg">Intersection of Art & Resiliency</h2>
+        <p class="text-lg mt-4 max-w-3xl mx-auto text-gray-300">
+            Through art, we foster meaningful community dialogues that lead to real-world solutions.
+        </p>
+        <div class="mt-8 flex justify-center">
+            <img src="img/peopleplace.png" alt="Community Art" class="rounded-xl shadow-xl backdrop-blur-lg transform hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
+        </div>
+    </div>
+</section>
+<!-- Mission & Vision with Modern Glassmorphism -->
+<section class="relative py-20 bg-gradient-to-br from-gray-100 to-gray-300">
+    <!-- Background Glow Effect -->
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.3),_transparent)]"></div>
+
+    <div class="max-w-6xl mx-auto px-6 text-center relative z-10">
+        <h2 class="text-4xl font-semibold text-gray-900 drop-shadow-md">Mission & Vision</h2>
+        <p class="text-lg text-gray-700 mt-4 max-w-3xl mx-auto">
+            We strive to create an empowered, self-sufficient, and resilient community through art-driven collaborations that promote social, economic, and environmental sustainability.
+        </p>
+    </div>
+
+    <!-- Glassmorphism Cards -->
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <!-- Vision -->
+        <div class="p-8 rounded-xl shadow-2xl text-center backdrop-blur-lg bg-white/20 border border-white/40 transform hover:scale-105 transition-all duration-300">
+            <h3 class="text-2xl font-semibold text-[#0097b2]">Our Vision</h3>
+            <p class="text-lg text-gray-800 mt-4">
+                Empowering Bantayan Islanders to enjoy a quality life in an ecologically balanced environment through shared dreams and collective action.
+            </p>
+        </div>
+
+        <!-- Mission -->
+        <div class="p-8 rounded-xl shadow-2xl text-center backdrop-blur-lg bg-white/20 border border-white/40 transform hover:scale-105 transition-all duration-300">
+            <h3 class="text-2xl font-semibold text-[#0097b2]">Our Mission</h3>
+            <p class="text-lg text-gray-800 mt-4">
+                Using art and collaboration as tools to address social, economic, and environmental challenges while fostering community engagement and sustainability.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- Gallery Section -->
+<section class="max-w-6xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl font-semibold text-gray-900 drop-shadow-lg">Collage & Memories</h2>
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="images/event1.jpg" alt="Event 1" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+        <img src="images/event2.jpg" alt="Event 2" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+        <img src="images/event3.jpg" alt="Event 3" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+        <img src="images/event4.jpg" alt="Event 4" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+    </div>
+</section>
+<!-- Team Members with Neumorphism -->
+<section class="bg-gray-200 py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-semibold text-gray-900 drop-shadow-lg">Meet Our Team</h2>
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center hover:shadow-2xl transition-shadow duration-300">
+                <img src="images/martha_atienza.jpg" alt="Martha Atienza" class="w-24 h-24 rounded-full shadow-md">
+                <h3 class="text-xl font-semibold mt-4">Martha Atienza</h3>
+                <p class="text-gray-600">Visual artist focused on environmental and social issues.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center hover:shadow-2xl transition-shadow duration-300">
+                <img src="images/jake_atienza.jpg" alt="Jake Atienza" class="w-24 h-24 rounded-full shadow-md">
+                <h3 class="text-xl font-semibold mt-4">Jake Atienza</h3>
+                <p class="text-gray-600">Interdisciplinary researcher and artist.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center hover:shadow-2xl transition-shadow duration-300">
+                <img src="images/bihiya_warriors.jpg" alt="Bihiya Warriors" class="w-24 h-24 rounded-full shadow-md">
+                <h3 class="text-xl font-semibold mt-4">Bihiya Warriors</h3>
+                <p class="text-gray-600">Youth-led community group promoting sustainability.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <?php include 'includes/footer.php'?>
 
     <script src="js/project_script.js"></script>
-    
 </body>
 </html>
