@@ -4,194 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - GoodLand</title>
+    <title>Eco Energy Navigation</title>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="header-title.css">
     <link rel="stylesheet" href="includes/footer.css">
- 
-    <script src="https://cdn.tailwindcss.com"></script>
-   
+    <link rel="stylesheet" href="projects.css">
 </head>
 
 <body>
-   
-<?php include "includes/nav_bar.php";?>
+    <!-- Top Bar with logo, contact info and consultation button -->
+    <?php include 'includes/nav_bar.php'?>
 
-<!-- Updated HTML for the page title section -->
-<div class="page-title">
-    <div class="leaf-decoration leaf-1"></div>
-    <div class="leaf-decoration leaf-2"></div>
-    <div class="leaf-decoration leaf-3"></div>
-    
-    <div class="container">
-        <h1>Get to Know GoodLand</h1>
-        <p>Home / About Us</p>
+    <div class="hero">
+        <h1>OUR PROJECTS</h1>
+        <p>Goodland’s initiatives in sustainable development and environmental conservation.</p>
     </div>
-</div>
-<section class="bg-white py-20 px-8 md:px-16 lg:px-32">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
-        <div class="md:w-1/2">
-            <h2 class="text-4xl md:text-5xl font-bold text-[#0097b2] mb-6">What We Do</h2>
-            <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
-                GOODLand is a platform under Martha Atienza’s Art Lab that develops and applies a creative and collaborative methodology utilized to tackle social, economic, and environmental issues on Bantayan Island in the Visayas, Philippines.
-            </p>
-        </div>
-        <div class="md:w-1/2">
-            <img src="img/peopleplace.png" alt="GoodLand Initiatives" class="w-full rounded-2xl shadow-xl">
-        </div>
+
+    <div class="projects">
+        <div class="project-item">
+            <div class="project-content">
+                <h3>Bantayan Battery Solution</h3>
+                <h1>Single-Use Batteries are killing the finances of our local fisherfolk and our shorelines</h1>
+                <p>In the municipality of Bantayan alone, there are over 700 compressor-diving fishermen. Shockingly, they discard <strong>over half a million dry-cell batteries</strong> into the ocean every year. But we've engineered a solution; a powerful solar solution that promises to not only protect our planet but also ease the financial burden on the fishermen.</p>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <img src="img/bantayan.png" alt="Bantayan Battery Solution">
     </div>
-</section>
 
 
-
-    <!-- Mission Statement Section -->
-    <section class="mission-section">
-        <div class="mission-content">
-            <h2>Our Mission & Vision</h2>
-            
-            <div class="mission-box">
-                <h3>Intersection of Art & Resiliency</h3>
-                <p>At GoodLand, we leverage art as a powerful tool to create meaningful community dialogues. These dialogues lead to tangible solutions that address the unique challenges faced by Bantayan Island. Through creative expression and collaboration, we build bridges between different stakeholders and develop innovative approaches to resilience.</p>
-            </div>
-            
-            <div class="mission-box">
-                <h3>Vision Statement</h3>
-                <p>Empowering Bantayan Islanders to enjoy a quality life in an ecologically balanced environment where communities thrive in harmony with nature.</p>
-            </div>
-            
-            <div class="mission-box">
-                <h3>Mission Statement</h3>
-                <p>Using art and collaboration to address social, economic, and environmental issues facing Bantayan Island through sustainable, community-driven solutions that respect local culture and traditions.</p>
+        <div class="project-item">
+            <img src="img/esawod.png" alt="ESAWOD">
+            <div class="project-content">
+                <h3>ESAWOD</h3>
+                <p>Brief text about the ESAWOD initiative.</p>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
-    </section>
 
-    <!-- Partnership Section -->
-    <section class="partners-section">
-        <h2>Our Partners</h2>
-        <div class="partners-container">
-            <div class="partner-item">
-                <i class="fa-solid fa-building" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>Local Government</h4>
-                <p>Supporting community initiatives and providing resources</p>
+        <div class="project-item">
+            <div class="project-content">
+                <h3>Marine Protected Area - Mambacayao</h3>
+                <h1>​One Tiny Island, One Big Passion.</h1>
+                <p>What can you do when it feels like the odds are stacked against you? Group together, unify in thought and <strong>stack higher.</strong> For the residents of Mambacayao Daku, that's exactly what they're doing. In a race to ensure their land and livelihoods aren't destroyed for themselves and generations to come, we've formed two new GOODland Branches; one for the Adults and one for the youth.
+                    <br>With two generations collaborating toward a common goal, their vision is clear: to preserve their way of life by nurturing and responsibly managing their natural environment.</p>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="partner-item">
-                <i class="fa-solid fa-graduation-cap" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>Educational Institutions</h4>
-                <p>Research collaboration and youth engagement</p>
-            </div>
-            <div class="partner-item">
-                <i class="fa-solid fa-globe" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>Environmental NGOs</h4>
-                <p>Joint conservation efforts and awareness campaigns</p>
-            </div>
-            <div class="partner-item">
-                <i class="fa-solid fa-users" style="font-size: 60px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>Community Groups</h4>
-                <p>Grassroots collaboration and local knowledge</p>
-            </div>
+            <img src="img/marine.jpg" alt="Marine Protected Area - Mambacayao">
+
         </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="gallery-section">
-        <h2>Collage & Memories</h2>
-        <div class="gallery-container">
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Community Event">
-            </div>
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Art Workshop">
-            </div>
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Environmental Project">
-            </div>
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Team Meeting">
-            </div>
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Beach Cleanup">
-            </div>
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Community Gathering">
-            </div>
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Art Exhibition">
-            </div>
-            <div class="gallery-item">
-                <img src="img/59047739.png" alt="Youth Program">
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Members Section -->
-    <section class="team-section">
-        <h2>Meet Our Team</h2>
-        <p class="team-intro">GoodLand is powered by a diverse team of passionate individuals dedicated to creating positive change through art and community engagement.</p>
         
-        <div class="team-container">
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="/api/placeholder/300/300" alt="Martha Atienza">
-                </div>
-                <div class="member-info">
-                    <h4>Martha Atienza</h4>
-                    <div class="member-role">Visual Artist</div>
-                    <p class="member-bio">Visual artist focused on environmental and social issues, using art as a medium for change and community engagement.</p>
-                </div>
-            </div>
-            
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="/api/placeholder/300/300" alt="Jake Atienza">
-                </div>
-                <div class="member-info">
-                    <h4>Jake Atienza</h4>
-                    <div class="member-role">Interdisciplinary Researcher</div>
-                    <p class="member-bio">Interdisciplinary researcher and artist exploring the intersection of community development and creative expression.</p>
-                </div>
-            </div>
-            
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="/api/placeholder/300/300" alt="Bihiya Warriors">
-                </div>
-                <div class="member-info">
-                    <h4>Bihiya Warriors</h4>
-                    <div class="member-role">Youth-led Community Group</div>
-                    <p class="member-bio">A youth-led community group dedicated to environmental conservation and cultural preservation on Bantayan Island.</p>
-                </div>
-            </div>
-            
-            
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="/api/placeholder/300/300" alt="Ramon Alontaga">
-                </div>
-                <div class="member-info">
-                    <h4>Ramon Alontaga</h4>
-                    <div class="member-role">Artist</div>
-                    <p class="member-bio">Artist working on mechanical and DIY island tech solutions that address local challenges in sustainable ways.</p>
-                </div>
-            </div>
-            
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="/api/placeholder/300/300" alt="DAKOgamay">
-                </div>
-                <div class="member-info">
-                    <h4>DAKOgamay</h4>
-                    <div class="member-role">Experimental Platform</div>
-                    <p class="member-bio">An experimental platform by Martha & Jake Atienza that explores innovative approaches to community development.</p>
-                </div>
+
+        <div class="project-item">
+            <img src="img/watershed.jpg" alt="Watershed Protected Zone">
+            <div class="project-content">
+                <h3>Watershed Protected Zone</h3>
+                <h1>Watershed Protected Area: Bihiya, Atop-Atop</h1>
+                <p>The Bihiya Warriors, a group of young locals from Bantayan Island, have come together with a shared goal: to protect their island's oldest and deepest watershed. Their mission is fueled by a deep connection to their heritage and a desire to safeguard the natural resources vital to their community's well-being.
+                    <br>​With a passion for learning and a commitment to spreading awareness, these youth have launched various activities aimed at fulfilling their mission. Click below to explore the inspiring endeavors they've been leading!</p>
+                    <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
-    </section>
 
-    <!-- Footer Section -->
-    <?php include 'includes/footer.php' ?>
+        <div class="project-item">
+            <div class="project-content">
+                <h3>Adlaw Sang Mananagat - "Fisherfolks Day"</h3>
+                <h1>Alone we can do little, but together we can do anything.</h1>
+                <p>Join us for Fisherfolk Day, a gathering to unite the sea communities of the Municipality of Bantayan for a brighter future.</p>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <img src="img/adlaw.jpg" alt="Adlaw Sang Mananagat">
+        </div>
+
+        <div class="project-item">
+            <img src="img/radio.png" alt="Radio and Podcast">
+            <div class="project-content">
+                <h3>Radio and Podcast</h3>
+                <h1>Using old-school methods to spread a new-school of thought about the environment.</h1>
+                <p>Education lays the groundwork for enduring transformation, as societal progress begins with enlightenment on an individual level.
+​                   <br>GOODLand Radio & Podcast serves as a valuable platform, disseminating essential yet often overlooked information about local laws and rights, the significance of environmental preservation, and beyond!</p>
+                <a href="https://www.youtube.com/watch?v=tqYuAizG0vE&list=PLBCs9XlJUSmMrKePNSMrLkihfO6Eg6Rzf" class="btn" target="_blank" rel="noopener noreferrer">
+                    Watch Episodes
+                </a>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <?php include 'includes/footer.php'?>
+
+    <script src="js/project_script.js"></script>
+    
 </body>
-
 </html>
