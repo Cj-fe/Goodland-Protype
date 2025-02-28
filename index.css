@@ -659,123 +659,119 @@
   background-color: #45a049;
   transform: translateY(-2px);
 }
-
 /*==================== PROJECTS SECTION START ====================*/
 .projects-section {
-    padding: 80px 0;
-    background-color: #f8f9fa;
-    position: relative;
-  }
-  
-  .projects-header {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 50px;
-  }
-  
-  .projects-header h2 {
-    color: #273556;
-    font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  
-  .projects-header p {
-    color: #777;
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  .project-card {
-    background-color: white;
-    
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s;
-    position: relative;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .project-image {
-    height: 450px; /* Increased height for more portrait orientation */
-    overflow: hidden;
-  }
-  
-  .project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s;
-  }
-  
-  .project-card:hover .project-image img {
-    transform: scale(1.05);
-  }
-  
-  /* New CSS for project details overlay */
-  .project-details {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(215, 255, 215, 0.85), rgba(255, 255, 255, 0.85));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-  }
-  
-  .project-card:hover .project-details {
-    opacity: 1;
-  }
-  
-  .project-details h3 {
-    color: #273556;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  
-  .project-details p {
-    color: #777;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  .project-details a {
-    display: inline-block;
-    background-color: #273556;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background-color 0.3s;
-  }
-  
-  .project-details a:hover {
-    background-color: #1a2540;
-  }
+  padding: 60px 0;
+  background-color: #ffffff;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+
+.projects-header {
+  text-align: left;
+  margin: 0 0 40px 15px;
+  max-width: 600px;
+}
+
+.projects-header h2 {
+  color: #273556;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.projects-header p {
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding: 0 15px;
+}
+
+.project-card {
+  background-color: white;
+  overflow: hidden;
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  background-color: #1a1a2e;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.project-overlay h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.project-overlay p {
+  font-size: 14px;
+  color: #b8b8ff;
+  font-weight: 400;
+}
+
+.project-info {
+  padding: 15px 0;
+}
+
+.project-info h3 {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.project-author {
+  color: #777;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
   /*==================== TESTIMONIALS SECTION START ====================*/
 .testimonials-section {
     padding: 80px 0;

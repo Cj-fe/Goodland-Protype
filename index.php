@@ -13,9 +13,9 @@
 </head>
 
 <body>
-   
-    <?php include 'includes/nav_bar.php'?>
-    
+
+    <?php include 'includes/nav_bar.php' ?>
+
     <!-- Carousel Section -->
     <div class="carousel">
         <div class="carousel-wrapper">
@@ -58,7 +58,8 @@
                     </div>
                     <div class="carousel-video">
                         <div class="video-frame">
-                            <video id="secondVideo" src="img/481209746_9044792452297942_2873886158743139648_n.mp4" loop playsinline></video>
+                            <video id="secondVideo" src="img/481209746_9044792452297942_2873886158743139648_n.mp4" loop
+                                playsinline></video>
                         </div>
                     </div>
                 </div>
@@ -319,21 +320,23 @@
 
     <!-- Latest Projects Section -->
     <section id="projects" class="projects-section">
-        <div class="projects-header">
-            <h2>Latest Projects</h2>
-            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt utlaborere magna aliqua.</p>
-        </div>
-
+    <div class="projects-header">
+        <h2>Latest Projects</h2>
+        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt utlaborere magna aliqua.</p>
+    </div>
         <div class="projects-grid">
             <!-- Project 1 -->
             <div class="project-card">
                 <div class="project-image">
                     <img src="https://picsum.photos/300/201" alt="Planting Initiative">
+                    <div class="project-overlay">
+                        <h3>Planting Initiative</h3>
+                        <p>For Environmental Sustainability</p>
+                    </div>
                 </div>
-                <div class="project-details">
-                    <h3>Planting Initiative</h3>
-                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
-                    <a href="#">View Details</a>
+                <div class="project-info">
+                    <h3>Planting Initiative: Sustainable Solutions for Urban Environments</h3>
+                    <p class="project-author">Emma Roberts • 15 Feb 2025</p>
                 </div>
             </div>
 
@@ -341,11 +344,14 @@
             <div class="project-card">
                 <div class="project-image">
                     <img src="https://picsum.photos/300/202" alt="Wind Energy">
+                    <div class="project-overlay">
+                        <h3>Wind Energy Project</h3>
+                        <p>Harnessing Natural Power</p>
+                    </div>
                 </div>
-                <div class="project-details">
-                    <h3>Wind Energy Project</h3>
-                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
-                    <a href="#">View Details</a>
+                <div class="project-info">
+                    <h3>Wind Energy Project: Top 5 Innovations Changing Renewables</h3>
+                    <p class="project-author">David Chen • 22 Jan 2025</p>
                 </div>
             </div>
 
@@ -353,11 +359,14 @@
             <div class="project-card">
                 <div class="project-image">
                     <img src="https://picsum.photos/300/203" alt="Forest Conservation">
+                    <div class="project-overlay">
+                        <h3>Forest Conservation</h3>
+                        <p>Protecting Natural Habitats</p>
+                    </div>
                 </div>
-                <div class="project-details">
-                    <h3>Forest Conservation</h3>
-                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
-                    <a href="#">View Details</a>
+                <div class="project-info">
+                    <h3>Forest Conservation in Action: Where Do We Draw the Line?</h3>
+                    <p class="project-author">Sarah Johnson • 05 Feb 2025</p>
                 </div>
             </div>
 
@@ -365,35 +374,14 @@
             <div class="project-card">
                 <div class="project-image">
                     <img src="https://picsum.photos/300/204" alt="Water Conservation">
+                    <div class="project-overlay">
+                        <h3>Water Conservation</h3>
+                        <p>Preserving Our Resources</p>
+                    </div>
                 </div>
-                <div class="project-details">
-                    <h3>Water Conservation</h3>
-                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
-                    <a href="#">View Details</a>
-                </div>
-            </div>
-
-            <!-- Project 5 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="https://picsum.photos/300/205" alt="Soil Regeneration">
-                </div>
-                <div class="project-details">
-                    <h3>Soil Regeneration</h3>
-                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
-                    <a href="#">View Details</a>
-                </div>
-            </div>
-
-            <!-- Project 6 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="https://picsum.photos/300/206" alt="Wildlife Protection">
-                </div>
-                <div class="project-details">
-                    <h3>Wildlife Protection</h3>
-                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
-                    <a href="#">View Details</a>
+                <div class="project-info">
+                    <h3>Advantages of Water Conservation: What Communities Should Know?</h3>
+                    <p class="project-author">Michael Okonkwo • 18 Dec 2024</p>
                 </div>
             </div>
         </div>
@@ -476,7 +464,7 @@
     </section>
 
     <!-- Footer Section -->
-    <?php include 'includes/footer.php'?>
+    <?php include 'includes/footer.php' ?>
 
 
     <script src="js/index_script.js"></script>
