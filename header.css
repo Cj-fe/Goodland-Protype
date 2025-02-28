@@ -1,4 +1,5 @@
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +8,8 @@
 
 body {
     color: #333;
+
+    
 }
 
 .top-bar {
@@ -20,6 +23,7 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
+
 }
 
 .logo-icon {
@@ -29,7 +33,7 @@ body {
 }
 
 .logo-image {
-    height: 40px;
+    height: 80px !important;
     width: auto;
 }
 

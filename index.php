@@ -26,7 +26,7 @@
                         <h1>FINDING LOCAL SOLUTIONS TO GLOBAL PROBLEMS</h1>
                         <p>Our mission is to facilitate the realization of an empowered, self-sufficient, and resilient
                             community by using art and collaborations to address the social, economic, and environmental
-                            issues on Bantayan Island</p>
+                            issues on Bantayan Island.</p>
                         <div class="carousel-buttons">
                             <a href="#" class="btn-primary">Read More</a>
                             <a href="#" class="btn-secondary">Get Involved</a>
