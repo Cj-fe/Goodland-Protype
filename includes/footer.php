@@ -2,7 +2,7 @@
     <div class="footer-container">
         <!-- About Section -->
         <div class="footer-column about">
-            <img src="logo.png" alt="GoodLand Logo" class="footer-logo">
+            <img src="img/480521352_1748505962663217_598372962596217603_n.png" alt="GoodLand Logo" class="footer-logo">
             <p>An art-driven NGO focused on sustainable solutions for social, economic, and environmental challenges on Bantayan Island.</p>
             <h4>Follow Us</h4>
             <div class="footer-social">
