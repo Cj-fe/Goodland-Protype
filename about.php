@@ -20,7 +20,7 @@
    <?php include 'includes/nav_bar.php'?>
 
 <div class="hero">
-    <h1>GET TO KNOW GOODLAND</h1>
+    <h1>Get To Know GoodLand</h1>
   <p>Home / About Us</p>
 </div>
 <!-- About Section with Soft Shadows & Floating Effect -->
@@ -84,36 +84,153 @@
         </div>
     </div>
 </section>
-<!-- Gallery Section -->
-<section class="max-w-6xl mx-auto px-6 py-16 text-center">
+<!-- Full-Width Collage & Memories with Details -->
+<section class="w-full px-4 py-16 text-center">
     <h2 class="text-3xl font-semibold text-gray-900 drop-shadow-lg">Collage & Memories</h2>
-    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
-        <img src="images/event1.jpg" alt="Event 1" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-        <img src="images/event2.jpg" alt="Event 2" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-        <img src="images/event3.jpg" alt="Event 3" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-        <img src="images/event4.jpg" alt="Event 4" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-7xl mx-auto">
+        
+        <!-- Gallery Item -->
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Community Gathering" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Community Gathering</p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Environmental Workshop" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Environmental Workshop</p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Art for Awareness" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Art for Awareness</p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Sustainability Talks" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Sustainability Talks</p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Community Cleanup" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Community Cleanup</p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Local Art Showcase" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Local Art Showcase</p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Youth Engagement" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Youth Engagement</p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="img/bateri.png" alt="Eco-friendly Initiatives" class="transform group-hover:scale-110 transition-transform duration-300 w-full">
+            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p class="text-white font-semibold text-lg">Eco-friendly Initiatives</p>
+            </div>
+        </div>
+
     </div>
 </section>
-<!-- Team Members with Neumorphism -->
+<!-- Meet Our Team Section -->
 <section class="bg-gray-200 py-16">
     <div class="max-w-6xl mx-auto px-6 text-center">
         <h2 class="text-3xl font-semibold text-gray-900 drop-shadow-lg">Meet Our Team</h2>
-        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center hover:shadow-2xl transition-shadow duration-300">
-                <img src="images/martha_atienza.jpg" alt="Martha Atienza" class="w-24 h-24 rounded-full shadow-md">
-                <h3 class="text-xl font-semibold mt-4">Martha Atienza</h3>
-                <p class="text-gray-600">Visual artist focused on environmental and social issues.</p>
+        <p class="text-lg text-gray-700 mt-4 max-w-3xl mx-auto">
+            A passionate team dedicated to fostering sustainable change through art, collaboration, and community engagement.
+        </p>
+
+        <!-- Team Grid -->
+        <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            
+            <!-- Team Member -->
+            <div class="bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <img src="img/bateri.png" alt="Martha Atienza" class="w-full h-64 object-cover">
+                <div class="p-6 text-left">
+                    <h3 class="text-xl font-semibold text-gray-900">Martha Atienza</h3>
+                    <p class="text-gray-600 text-sm">Visual Artist & Founder</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                        Award-winning artist addressing social and environmental issues through art and community-driven projects.
+                    </p>
+                </div>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center hover:shadow-2xl transition-shadow duration-300">
-                <img src="images/jake_atienza.jpg" alt="Jake Atienza" class="w-24 h-24 rounded-full shadow-md">
-                <h3 class="text-xl font-semibold mt-4">Jake Atienza</h3>
-                <p class="text-gray-600">Interdisciplinary researcher and artist.</p>
+
+            <!-- Team Member -->
+            <div class="bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <img src="img/bateri.png" alt="Martha Atienza" class="w-full h-64 object-cover">
+                <div class="p-6 text-left">
+                    <h3 class="text-xl font-semibold text-gray-900">Jake Atienza</h3>
+                    <p class="text-gray-600 text-sm">Interdisciplinary Researcher</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                        Exploring the intersection of science, community, and art to drive meaningful social impact.
+                    </p>
+                </div>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center hover:shadow-2xl transition-shadow duration-300">
-                <img src="images/bihiya_warriors.jpg" alt="Bihiya Warriors" class="w-24 h-24 rounded-full shadow-md">
-                <h3 class="text-xl font-semibold mt-4">Bihiya Warriors</h3>
-                <p class="text-gray-600">Youth-led community group promoting sustainability.</p>
+
+            <!-- Team Member -->
+            <div class="bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <img src="img/bateri.png" alt="Martha Atienza" class="w-full h-64 object-cover">
+                <div class="p-6 text-left">
+                    <h3 class="text-xl font-semibold text-gray-900">Bihiya Warriors</h3>
+                    <p class="text-gray-600 text-sm">Youth-Led Community Group</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                        A collective of young changemakers promoting environmental sustainability and community resilience.
+                    </p>
+                </div>
             </div>
+
+                <!-- Team Member -->
+                <div class="bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <img src="img/bateri.png" alt="Martha Atienza" class="w-full h-64 object-cover">
+                <div class="p-6 text-left">
+                    <h3 class="text-xl font-semibold text-gray-900">Martha Atienza</h3>
+                    <p class="text-gray-600 text-sm">Visual Artist & Founder</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                        Award-winning artist addressing social and environmental issues through art and community-driven projects.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Team Member -->
+            <div class="bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <img src="img/bateri.png" alt="Martha Atienza" class="w-full h-64 object-cover">
+                <div class="p-6 text-left">
+                    <h3 class="text-xl font-semibold text-gray-900">Jake Atienza</h3>
+                    <p class="text-gray-600 text-sm">Interdisciplinary Researcher</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                        Exploring the intersection of science, community, and art to drive meaningful social impact.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Team Member -->
+            <div class="bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <img src="img/bateri.png" alt="Martha Atienza" class="w-full h-64 object-cover">
+                <div class="p-6 text-left">
+                    <h3 class="text-xl font-semibold text-gray-900">Bihiya Warriors</h3>
+                    <p class="text-gray-600 text-sm">Youth-Led Community Group</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                        A collective of young changemakers promoting environmental sustainability and community resilience.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
