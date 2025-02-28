@@ -7,6 +7,7 @@
     <title>Eco Energy Navigation</title>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="includes/footer.css">
     <link rel="stylesheet" href="projects.css">
@@ -27,7 +28,7 @@
                 <h3>Bantayan Battery Solution</h3>
                 <h1>Single-Use Batteries are killing the finances of our local fisherfolk and our shorelines</h1>
                 <p>In the municipality of Bantayan alone, there are over 700 compressor-diving fishermen. Shockingly, they discard <strong>over half a million dry-cell batteries</strong> into the ocean every year. But we've engineered a solution; a powerful solar solution that promises to not only protect our planet but also ease the financial burden on the fishermen.</p>
-                <a href="#" class="btn">Learn More</a>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <img src="img/bantayan.png" alt="Bantayan Battery Solution">
     </div>
@@ -38,7 +39,7 @@
             <div class="project-content">
                 <h3>ESAWOD</h3>
                 <p>Brief text about the ESAWOD initiative.</p>
-                <a href="#" class="btn">Learn More</a>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
 
@@ -48,7 +49,7 @@
                 <h1>​One Tiny Island, One Big Passion.</h1>
                 <p>What can you do when it feels like the odds are stacked against you? Group together, unify in thought and <strong>stack higher.</strong> For the residents of Mambacayao Daku, that's exactly what they're doing. In a race to ensure their land and livelihoods aren't destroyed for themselves and generations to come, we've formed two new GOODland Branches; one for the Adults and one for the youth.
                     <br>With two generations collaborating toward a common goal, their vision is clear: to preserve their way of life by nurturing and responsibly managing their natural environment.</p>
-                <a href="#" class="btn">Learn More</a>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <img src="img/marine.jpg" alt="Marine Protected Area - Mambacayao">
 
@@ -62,7 +63,7 @@
                 <h1>Watershed Protected Area: Bihiya, Atop-Atop</h1>
                 <p>The Bihiya Warriors, a group of young locals from Bantayan Island, have come together with a shared goal: to protect their island's oldest and deepest watershed. Their mission is fueled by a deep connection to their heritage and a desire to safeguard the natural resources vital to their community's well-being.
                     <br>​With a passion for learning and a commitment to spreading awareness, these youth have launched various activities aimed at fulfilling their mission. Click below to explore the inspiring endeavors they've been leading!</p>
-                <a href="#" class="btn">Learn More</a>
+                    <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
 
@@ -71,7 +72,7 @@
                 <h3>Adlaw Sang Mananagat - "Fisherfolks Day"</h3>
                 <h1>Alone we can do little, but together we can do anything.</h1>
                 <p>Join us for Fisherfolk Day, a gathering to unite the sea communities of the Municipality of Bantayan for a brighter future.</p>
-                <a href="#" class="btn">Learn More</a>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <img src="img/adlaw.jpg" alt="Adlaw Sang Mananagat">
         </div>
@@ -86,7 +87,7 @@
                 <a href="https://www.youtube.com/watch?v=tqYuAizG0vE&list=PLBCs9XlJUSmMrKePNSMrLkihfO6Eg6Rzf" class="btn" target="_blank" rel="noopener noreferrer">
                     Watch Episodes
                 </a>
-                <a href="#" class="btn">Learn More</a>
+                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </div>
