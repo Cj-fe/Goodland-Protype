@@ -28,9 +28,9 @@
     <!-- Main Navigation Bar -->
     <div class="navigation">
         <ul class="nav-links">
-            <li><a href="/index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="/about.html">About Us</a></li>
-            <li><a href="/project.php">Projects</a></li>
+            <li><a href="project.php">Projects</a></li>
             <li><a href="#recycle">Methodology</a></li>
         </ul>
 
