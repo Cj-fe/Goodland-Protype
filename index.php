@@ -26,7 +26,7 @@
                         <h1>FINDING LOCAL SOLUTIONS TO GLOBAL PROBLEMS</h1>
                         <p>Our mission is to facilitate the realization of an empowered, self-sufficient, and resilient
                             community by using art and collaborations to address the social, economic, and environmental
-                            issues on Bantayan Island</p>
+                            issues on Bantayan Island.</p>
                         <div class="carousel-buttons">
                             <a href="#" class="btn-primary">Read More</a>
                             <a href="#" class="btn-secondary">Get Involved</a>
@@ -371,75 +371,120 @@
         </div>
     </section>
 
-    <!-- Testimonial Carousel Section -->
+    <!-- News-Style Testimonial Section -->
     <section id="testimonials" class="testimonials-section">
         <div class="testimonials-header">
-            <h2>Shared Experiences</h2>
-            <p>Hear from our community members about their experiences with us.</p>
+            <h2>Community Stories</h2>
+            <p>Latest updates and experiences from our community members</p>
         </div>
 
-        <!-- Tab Buttons -->
-        <div class="testimonial-tabs">
-            <button class="tab-button active" data-tab="text">Message</button>
-            <button class="tab-button" data-tab="video">Video</button>
+        <!-- Category Filters -->
+        <div class="testimonial-categories">
+            <button class="category-button active" data-category="all">All Stories</button>
+            <button class="category-button" data-category="success">Success Stories</button>
+            <button class="category-button" data-category="video">Video Features</button>
         </div>
 
-        <div class="testimonials-carousel-container">
-            <!-- Text Testimonial Tab -->
-            <div class="testimonial-tab-content active" id="text">
-                <div class="testimonials-carousel">
-                    <!-- Text Testimonial Card -->
-                    <div class="testimonial-card">
-                        <div class="testimonial-profile">
-                            <img src="https://picsum.photos/300/207" alt="Profile Picture">
-                            <h3>John Doe</h3>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"Eco Energy has transformed our community with sustainable solutions. Their projects have
-                                empowered us to take charge of our environment."</p>
-                        </div>
+        <div class="testimonials-grid-container">
+            <!-- News Card Grid -->
+            <div class="testimonials-grid">
+                <!-- News Card 1 -->
+                <div class="news-card" data-category="success">
+                    <div class="news-card-image">
+                        <img src="https://picsum.photos/300/207" alt="Community Project">
+                        <div class="news-card-date">Oct 15, 2024</div>
                     </div>
-                    <!-- Additional Text Testimonial Card -->
-                    <div class="testimonial-card">
-                        <div class="testimonial-profile">
-                            <img src="https://picsum.photos/300/208" alt="Profile Picture">
-                            <h3>Jane Doe</h3>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"The initiatives by Eco Energy have greatly improved our quality of life and brought us
-                                closer as a community."</p>
+                    <div class="news-card-content">
+                        <div class="news-card-category">Success Story</div>
+                        <h3 class="news-card-title">Community Transformation through Sustainable Solutions</h3>
+                        <p class="news-card-excerpt">
+                            "Eco Energy has transformed our community with sustainable solutions. Their projects have
+                            empowered us to take charge of our environment."
+                        </p>
+                        <div class="news-card-footer">
+                            <div class="news-card-author">
+                                <img src="https://picsum.photos/300/207" alt="John Doe">
+                                <span>John Doe</span>
+                            </div>
+                            <a href="#" class="read-more-link">Read More</a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Video Testimonial Tab -->
-            <div class="testimonial-tab-content" id="video">
-                <div class="testimonials-carousel">
-                    <!-- Video Testimonial Card -->
-                    <div class="testimonial-card">
-                        <div class="testimonial-profile">
-                            <img src="https://picsum.photos/300/209" alt="Profile Picture">
-                            <h3>Jane Smith</h3>
-                        </div>
-                        <div class="testimonial-video">
-                            <video controls>
-                                <source src="video/testimonial.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                <!-- News Card 2 -->
+                <div class="news-card" data-category="success">
+                    <div class="news-card-image">
+                        <img src="https://picsum.photos/300/208" alt="Community Project">
+                        <div class="news-card-date">Oct 10, 2024</div>
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-card-category">Success Story</div>
+                        <h3 class="news-card-title">Improving Quality of Life through Community Initiatives</h3>
+                        <p class="news-card-excerpt">
+                            "The initiatives by Eco Energy have greatly improved our quality of life and brought us
+                            closer as a community."
+                        </p>
+                        <div class="news-card-footer">
+                            <div class="news-card-author">
+                                <img src="https://picsum.photos/300/208" alt="Jane Doe">
+                                <span>Jane Doe</span>
+                            </div>
+                            <a href="#" class="read-more-link">Read More</a>
                         </div>
                     </div>
-                    <!-- Additional Video Testimonial Card -->
-                    <div class="testimonial-card">
-                        <div class="testimonial-profile">
-                            <img src="https://picsum.photos/300/210" alt="Profile Picture">
-                            <h3>Mark Johnson</h3>
+                </div>
+
+                <!-- News Card 3 (Video) -->
+                <div class="news-card" data-category="video">
+                    <div class="news-card-image">
+                        <div class="video-thumbnail">
+                            <img src="https://picsum.photos/300/209" alt="Video Thumbnail">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
                         </div>
-                        <div class="testimonial-video">
-                            <video controls>
-                                <source src="video/testimonial2.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                        <div class="news-card-date">Oct 8, 2024</div>
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-card-category">Video Feature</div>
+                        <h3 class="news-card-title">Jane Smith Shares Her Sustainability Journey</h3>
+                        <p class="news-card-excerpt">
+                            Watch Jane's inspiring story about implementing renewable energy solutions in her
+                            neighborhood.
+                        </p>
+                        <div class="news-card-footer">
+                            <div class="news-card-author">
+                                <img src="https://picsum.photos/300/209" alt="Jane Smith">
+                                <span>Jane Smith</span>
+                            </div>
+                            <a href="#" class="watch-video-link">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Card 4 (Video) -->
+                <div class="news-card" data-category="video">
+                    <div class="news-card-image">
+                        <div class="video-thumbnail">
+                            <img src="https://picsum.photos/300/210" alt="Video Thumbnail">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="news-card-date">Oct 5, 2024</div>
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-card-category">Video Feature</div>
+                        <h3 class="news-card-title">Mark Johnson's Community Solar Project</h3>
+                        <p class="news-card-excerpt">
+                            Mark discusses how his neighborhood collaborated to implement a shared solar panel system.
+                        </p>
+                        <div class="news-card-footer">
+                            <div class="news-card-author">
+                                <img src="https://picsum.photos/300/210" alt="Mark Johnson">
+                                <span>Mark Johnson</span>
+                            </div>
+                            <a href="#" class="watch-video-link">Watch Video</a>
                         </div>
                     </div>
                 </div>

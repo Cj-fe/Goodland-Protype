@@ -4,15 +4,10 @@
                 <h3>About GoodLand</h3>
                 <p>An art-driven NGO focused on creating sustainable solutions for social, economic, and environmental challenges on Bantayan Island through community collaboration and creative expression.</p>
                 <div class="footer-social">
-                    <a href="https://www.facebook.com/goodland.philippines" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.youtube.com/@goodland4831" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                    <a href="https://www.instagram.com/goodland.philippines/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
             

@@ -333,53 +333,8 @@
 </head>
 
 <body>
-    <!-- Top Bar with logo, contact info and consultation button -->
-    <div class="top-bar">
-        <div class="logo-container">
-            <img src="481741660_1202479434928856_876828406647000477_n.png" alt="Eco Energy Logo" class="logo-image">
-        </div>
-
-        <div class="contact-info">
-            <div class="contact-item">
-                <i class="contact-icon fa-solid fa-phone"></i>
-                <div class="contact-text">
-                    <span class="contact-heading">Call Us Anytime</span>
-                    <span class="contact-detail">(+91) 1800-214-122</span>
-                </div>
-            </div>
-
-            <div class="contact-item">
-                <i class="contact-icon fa-solid fa-envelope"></i>
-                <div class="contact-text">
-                    <span class="contact-heading">Email Us Anytime</span>
-                    <span class="contact-detail">eco@example.com</span>
-                </div>
-            </div>
-        </div>
-
-        <button class="free-consultation">Free Consultation</button>
-    </div>
-
-    <!-- Main Navigation Bar -->
-    <div class="navigation">
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="methodology.html">Methodology</a></li>
-        </ul>
-
-        <div class="social-search">
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-        </div>
-    </div>
+   
+<?php include "includes/nav_bar.php";?>
 
 <!-- Updated HTML for the page title section -->
 <div class="page-title">
@@ -427,57 +382,6 @@
         </div>
     </section>
 
-    <!-- Certifications & Licenses Section -->
-    <section class="certifications">
-        <h2>Our Certifications & Licenses</h2>
-        <div class="cert-container">
-            <div class="cert-item">
-                <i class="fa-solid fa-certificate" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>NGO Certification</h4>
-                <p>Officially recognized non-profit organization</p>
-            </div>
-            <div class="cert-item">
-                <i class="fa-solid fa-award" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>Environmental License</h4>
-                <p>Approved environmental protection initiatives</p>
-            </div>
-            <div class="cert-item">
-                <i class="fa-solid fa-handshake" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>Community Partnership</h4>
-                <p>Official community engagement certification</p>
-            </div>
-            <div class="cert-item">
-                <i class="fa-solid fa-scroll" style="font-size: 50px; color: #4CAF50; margin-bottom: 15px;"></i>
-                <h4>Legal Operation</h4>
-                <p>Government-approved operations license</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Impact/Achievements Section -->
-    <section class="impact-section">
-        <h2>Our Impact</h2>
-        <div class="stats-container">
-            <div class="stat-item">
-                <div class="stat-number">25+</div>
-                <div class="stat-label">Projects Completed</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">5,000+</div>
-                <div class="stat-label">People Helped</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">80%</div>
-                <div class="stat-label">Waste Reduction</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">12+</div>
-                <div class="stat-label">Community Partners</div>
-            </div>
-        </div>
-        <a href="#" class="read-more-btn">Read More About Our Projects</a>
-    </section>
-
     <!-- Partnership Section -->
     <section class="partners-section">
         <h2>Our Partners</h2>
@@ -510,28 +414,28 @@
         <h2>Collage & Memories</h2>
         <div class="gallery-container">
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Community Event">
+                <img src="img/59047739.png" alt="Community Event">
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Art Workshop">
+                <img src="img/59047739.png" alt="Art Workshop">
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Environmental Project">
+                <img src="img/59047739.png" alt="Environmental Project">
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Team Meeting">
+                <img src="img/59047739.png" alt="Team Meeting">
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Beach Cleanup">
+                <img src="img/59047739.png" alt="Beach Cleanup">
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Community Gathering">
+                <img src="img/59047739.png" alt="Community Gathering">
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Art Exhibition">
+                <img src="img/59047739.png" alt="Art Exhibition">
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="Youth Program">
+                <img src="img/59047739.png" alt="Youth Program">
             </div>
         </div>
     </section>
@@ -600,53 +504,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-column">
-                <h3>About GoodLand</h3>
-                <p>An art-driven NGO focused on creating sustainable solutions for social, economic, and environmental challenges on Bantayan Island through community collaboration and creative expression.</p>
-                <div class="footer-social">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Contact Us</h3>
-                <div class="footer-contact-item">
-                    <i class="footer-contact-icon fa-solid fa-location-dot"></i>
-                    <p>Bantayan Island, Cebu, Philippines</p>
-                </div>
-                <div class="footer-contact-item">
-                    <i class="footer-contact-icon fa-solid fa-phone"></i>
-                    <p>(+91) 1800-214-122</p>
-                </div>
-                <div class="footer-contact-item">
-                    <i class="footer-contact-icon fa-solid fa-envelope"></i>
-                    <p>eco@example.com</p>
-                </div>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Quick Links</h3>
-                <div class="footer-links">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About Us</a>
-                    <a href="#">Methodology</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Get Involved</a>
-                    <a href="#">Contact</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <p>© 2025 GoodLand. All rights reserved.</p>
-        </div>
-    </footer>
+<?php include "includes/footer.php"; ?>
 </body>
 
 </html>

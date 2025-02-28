@@ -1,0 +1,86 @@
+/* Footer Styling */
+.footer {
+    background: #23263a;
+    color: #ffffff;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-column ul li a:hover {
+    color: #f4a261;
+}
+
+/* Social Icons */
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #f4a261;
+}
+
+/* Button */
+.footer-btn {
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    padding: 8px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.footer-btn:hover {
+    background: #e65c00;
+}
+
+/* Recent Posts */
