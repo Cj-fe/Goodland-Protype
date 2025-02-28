@@ -166,164 +166,148 @@
         </div>
     </section>
 
-    <!-- Events Carousel Section -->
+    <!-- Events Section -->
     <section id="events" class="events-section">
         <div class="events-header">
             <h2>Events</h2>
             <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
-        <div class="events-carousel-container">
-            <div class="events-carousel">
-                <!-- Event Card 1 -->
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="https://picsum.photos/300/211 alt=" Tree Planting Event">
-                        <div class="event-date">
-                            <span class="day">08</span>
-                            <span class="month">MAY</span>
+        <div class="events-grid-container">
+            <div class="events-grid">
+                <!-- Featured Event Card (Large) -->
+                <div class="event-card event-card-featured">
+                    <div class="event-card-inner">
+                        <div class="event-image">
+                            <img src="https://picsum.photos/800/500" alt="Tree Planting Event">
                         </div>
-                    </div>
-                    <div class="event-details">
-                        <div class="event-time">
-                            <i class="fa-regular fa-clock"></i>
-                            <span>11:00 Am - 01:30 pm</span>
+                        <div class="event-overlay"></div>
+                        <div class="event-category">Environment</div>
+                        <div class="event-content">
+                            <h3 class="event-title">Interesting Ways To Study Climate Change</h3>
+                            <div class="event-meta">
+                                <div class="event-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>08 MAY, 2025</span>
+                                </div>
+                                <div class="event-location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Miami, California</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="event-location">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>2351 NW 2nd Ave, Miami, Building NT Square, California</span>
-                        </div>
-                        <h3 class="event-title">You can Interesting Ways To Study Climate Change</h3>
                     </div>
                 </div>
 
-                <!-- Event Card 2 -->
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="https://picsum.photos/300/200" alt="Eco Partnership">
-                        <div class="event-date">
-                            <span class="day">15</span>
-                            <span class="month">MAY</span>
+                <!-- Medium Event Card 1 -->
+                <div class="event-card event-card-medium">
+                    <div class="event-card-inner">
+                        <div class="event-image">
+                            <img src="https://picsum.photos/500/300" alt="Renewable Energy Summit">
                         </div>
-                    </div>
-                    <div class="event-details">
-                        <div class="event-time">
-                            <i class="fa-regular fa-clock"></i>
-                            <span>10:00 Am - 12:30 pm</span>
+                        <div class="event-overlay"></div>
+                        <div class="event-category">Energy</div>
+                        <div class="event-content">
+                            <h3 class="event-title">Renewable Energy Summit for Homeowners</h3>
+                            <div class="event-meta">
+                                <div class="event-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>15 MAY, 2025</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="event-location">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>1250 Market St, San Francisco, California</span>
-                        </div>
-                        <h3 class="event-title">Renewable Energy Summit for Homeowners</h3>
                     </div>
                 </div>
 
-                <!-- Event Card 3 -->
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="https://picsum.photos/300/200" alt="Energy Innovation">
-                        <div class="event-date">
-                            <span class="day">22</span>
-                            <span class="month">MAY</span>
+                <!-- Medium Event Card 2 -->
+                <div class="event-card event-card-medium">
+                    <div class="event-card-inner">
+                        <div class="event-image">
+                            <img src="https://picsum.photos/500/300?random=2" alt="Workshop on Solar Panel">
                         </div>
-                    </div>
-                    <div class="event-details">
-                        <div class="event-time">
-                            <i class="fa-regular fa-clock"></i>
-                            <span>09:00 Am - 02:00 pm</span>
+                        <div class="event-overlay"></div>
+                        <div class="event-category">Workshop</div>
+                        <div class="event-content">
+                            <h3 class="event-title">Workshop on Solar Panel Installation</h3>
+                            <div class="event-meta">
+                                <div class="event-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>22 MAY, 2025</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="event-location">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>780 Green Ave, San Diego, California</span>
-                        </div>
-                        <h3 class="event-title">Workshop on Solar Panel Installation</h3>
                     </div>
                 </div>
 
-                <!-- Event Card 4 -->
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="https://picsum.photos/300/200" alt="Community Clean-up">
-                        <div class="event-date">
-                            <span class="day">01</span>
-                            <span class="month">JUN</span>
+                <!-- Small Event Card 1 -->
+                <div class="event-card event-card-small">
+                    <div class="event-card-inner">
+                        <div class="event-image">
+                            <img src="https://picsum.photos/500/300?random=3" alt="Community Clean-up">
                         </div>
-                    </div>
-                    <div class="event-details">
-                        <div class="event-time">
-                            <i class="fa-regular fa-clock"></i>
-                            <span>08:30 Am - 11:30 am</span>
+                        <div class="event-overlay"></div>
+                        <div class="event-category">Community</div>
+                        <div class="event-content">
+                            <h3 class="event-title">Community Beach Clean-up and Recycling Initiative</h3>
+                            <div class="event-meta">
+                                <div class="event-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>01 JUN, 2025</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="event-location">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Beach Drive, Los Angeles, California</span>
-                        </div>
-                        <h3 class="event-title">Community Beach Clean-up and Recycling Initiative</h3>
                     </div>
                 </div>
 
-                <!-- Event Card 5 -->
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="https://picsum.photos/300/200" alt="Green Business Expo">
-                        <div class="event-date">
-                            <span class="day">10</span>
-                            <span class="month">JUN</span>
+                <!-- Small Event Card 2 -->
+                <div class="event-card event-card-small">
+                    <div class="event-card-inner">
+                        <div class="event-image">
+                            <img src="https://picsum.photos/500/300?random=4" alt="Green Business Expo">
                         </div>
-                    </div>
-                    <div class="event-details">
-                        <div class="event-time">
-                            <i class="fa-regular fa-clock"></i>
-                            <span>09:00 Am - 04:00 pm</span>
+                        <div class="event-overlay"></div>
+                        <div class="event-category">Expo</div>
+                        <div class="event-content">
+                            <h3 class="event-title">Green Business Expo and Sustainable Technologies</h3>
+                            <div class="event-meta">
+                                <div class="event-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>10 JUN, 2025</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="event-location">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Convention Center, Santa Clara, California</span>
-                        </div>
-                        <h3 class="event-title">Green Business Expo and Sustainable Technologies Showcase</h3>
                     </div>
                 </div>
 
-                <!-- Event Card 6 -->
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="https://picsum.photos/300/200" alt="Energy Efficiency">
-                        <div class="event-date">
-                            <span class="day">18</span>
-                            <span class="month">JUN</span>
+                <!-- Small Event Card 3 -->
+                <div class="event-card event-card-small">
+                    <div class="event-card-inner">
+                        <div class="event-image">
+                            <img src="https://picsum.photos/500/300?random=5" alt="Energy Efficiency">
                         </div>
-                    </div>
-                    <div class="event-details">
-                        <div class="event-time">
-                            <i class="fa-regular fa-clock"></i>
-                            <span>01:00 Pm - 03:30 pm</span>
+                        <div class="event-overlay"></div>
+                        <div class="event-category">Tech</div>
+                        <div class="event-content">
+                            <h3 class="event-title">Smart Home Energy Efficiency Technology Seminar</h3>
+                            <div class="event-meta">
+                                <div class="event-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>18 JUN, 2025</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="event-location">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Tech Center, Palo Alto, California</span>
-                        </div>
-                        <h3 class="event-title">Smart Home Energy Efficiency Technology Seminar</h3>
                     </div>
                 </div>
             </div>
-
-            <!-- Carousel Navigation -->
-            <button class="carousel-prev">
-                <i class="fa-solid fa-chevron-left"></i>
-            </button>
-            <button class="carousel-next">
-                <i class="fa-solid fa-chevron-right"></i>
-            </button>
         </div>
     </section>
 
     <!-- Latest Projects Section -->
     <section id="projects" class="projects-section">
-    <div class="projects-header">
-        <h2>Latest Projects</h2>
-        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt utlaborere magna aliqua.</p>
-    </div>
+        <div class="projects-header">
+            <h2>Latest Projects</h2>
+            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt utlaborere magna aliqua.</p>
+        </div>
         <div class="projects-grid">
             <!-- Project 1 -->
             <div class="project-card">
