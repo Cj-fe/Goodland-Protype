@@ -45,7 +45,7 @@
                 <div class="post-info">
                     <p><strong>The effort Go Green has been felt across.</strong></p>
                     <span>admin</span>
-                </div>
+                </d
             </div>
             <div class="post-item">
                 <img src="post2.jpg" alt="Post Image">

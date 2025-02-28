@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="header-title.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="includes/footer.css">
     <style>
 
         .about-section {
