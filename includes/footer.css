@@ -20,30 +20,40 @@
     margin-bottom: 20px;
 }
 
+/* Logo */
+.footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+/* Titles */
 .footer-column h3 {
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: bold;
 }
 
+/* Text */
 .footer-column p {
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
+/* Links */
 .footer-column ul {
     list-style: none;
     padding: 0;
 }
 
 .footer-column ul li {
-    font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .footer-column ul li a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 14px;
+    transition: color 0.3s ease;
 }
 
 .footer-column ul li a:hover {
@@ -67,20 +77,20 @@
     color: #f4a261;
 }
 
-/* Button */
-.footer-btn {
-    display: inline-block;
-    background: #ff6600;
-    color: #fff;
-    padding: 8px 15px;
-    margin-top: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-.footer-btn:hover {
-    background: #e65c00;
-}
-
 /* Recent Posts */
+.post-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.post-item .post-info p {
+    margin: 0;
+    font-size: 
