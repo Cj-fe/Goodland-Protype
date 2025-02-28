@@ -30,7 +30,7 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About Us</a></li>
         <li><a href="project.php">Projects</a></li>
-        <li><a href="#recycle">Methodology</a></li>
+        <li><a href="methodology.php">Methodology</a></li>
     </ul>
 
     <div class="social-search">

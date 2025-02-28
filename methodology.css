@@ -1,0 +1,236 @@
+.hero {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(199, 216, 199, 0.8) 0%, rgba(25, 58, 26, 0.8) 70%),
+                url('img/banner.jpeg') no-repeat center center/cover;
+    color: rgb(251, 248, 248);
+    padding: 100px 20px;
+    height: 300px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(187, 185, 185, 0.321); /* Adjust transparency */
+    z-index: 1;
+}
+
+.hero * {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+}
+
+.hero h1::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: #FF8C00;
+    border-radius: 5px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 30px auto 0;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Core of Goodland Section Styles */
+.core-of-goodland {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.goodland-core-item {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.goodland-core-image {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.goodland-core-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.goodland-core-image img:hover {
+    transform: scale(1.05);
+}
+
+.goodland-core-content {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.goodland-core-content h2 {
+    font-size: 32px;
+    color: #193A1A;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.goodland-core-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background-color: #FF8C00;
+    border-radius: 3px;
+}
+
+.goodland-core-content p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.goodland-btn-primary {
+    display: inline-block;
+    background-color: #193A1A;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.goodland-btn-primary:hover {
+    background-color: #2c5a2d;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.goodland-btn-primary i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.goodland-btn-primary:hover i {
+    transform: translateX(5px);
+}
+
+/* Model of Goodland Section Styles */
+.model-of-goodland {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.goodland-model-item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.goodland-model-image {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.goodland-model-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.goodland-model-image img:hover {
+    transform: scale(1.05);
+}
+
+.goodland-model-content {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.goodland-model-content h2 {
+    font-size: 32px;
+    color: #193A1A;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.goodland-model-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background-color: #FF8C00;
+    border-radius: 3px;
+}
+
+.goodland-model-content p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .goodland-core-item {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .goodland-core-image, .goodland-core-content {
+        flex: none;
+        width: 100%;
+    }
+    
+    .goodland-model-item {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    
+    .goodland-model-image, .goodland-model-content {
+        flex: none;
+        width: 100%;
+    }
+}
