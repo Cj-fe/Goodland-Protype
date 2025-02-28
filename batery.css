@@ -82,12 +82,19 @@ body {
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #FF9800; /* Changes color to orange on hover */
+    transform: scale(1.05); /* Slightly enlarges the button for a smooth effect */
 }
 
 .btn svg {
     fill: white; /* Ensures the icon color matches the text */
+    transition: fill 0.3s ease-in-out;
 }
+
+.btn:hover svg {
+    fill: white; /* Keeps the icon white when hovering */
+}
+
 
 
 /* Button Primary */
@@ -156,9 +163,20 @@ body {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1); /* Adds depth */
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Light gradient for 3D depth */
+    box-shadow: 
+        5px 5px 15px rgba(0, 0, 0, 0.2),  /* Soft outer shadow */
+        -5px -5px 15px rgba(255, 255, 255, 0.8), /* Inner highlight for 3D pop */
+        inset 3px 3px 5px rgba(0, 0, 0, 0.1), /* Inset shadow for realism */
+        inset -3px -3px 5px rgba(255, 255, 255, 0.5); /* Light source effect */
     margin-left: 20px; /* Creates space between text and image */
+    transition: transform 0.3s ease-in-out;
 }
+
+.issue-content img:hover {
+    transform: scale(1.05); /* Slight pop-out effect on hover */
+}
+
 
 
 .solution-content {
@@ -197,6 +215,17 @@ body {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1); /* Adds depth */
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Light gradient for 3D depth */
+    box-shadow: 
+        5px 5px 15px rgba(0, 0, 0, 0.2),  /* Soft outer shadow */
+        -5px -5px 15px rgba(255, 255, 255, 0.8), /* Inner highlight for 3D pop */
+        inset 3px 3px 5px rgba(0, 0, 0, 0.1), /* Inset shadow for realism */
+        inset -3px -3px 5px rgba(255, 255, 255, 0.5); /* Light source effect */
     margin-left: 20px; /* Creates space between text and image */
+    transition: transform 0.3s ease-in-out;
 }
+
+.solution-content img:hover {
+    transform: scale(1.05); /* Slight pop-out effect on hover */
+}
+

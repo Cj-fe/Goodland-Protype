@@ -28,7 +28,7 @@
                 <h3>Bantayan Battery Solution</h3>
                 <h1>Single-Use Batteries are killing the finances of our local fisherfolk and our shorelines</h1>
                 <p>In the municipality of Bantayan alone, there are over 700 compressor-diving fishermen. Shockingly, they discard <strong>over half a million dry-cell batteries</strong> into the ocean every year. But we've engineered a solution; a powerful solar solution that promises to not only protect our planet but also ease the financial burden on the fishermen.</p>
-                <a href="#" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="batery.php" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <img src="img/bantayan.png" alt="Bantayan Battery Solution">
     </div>
