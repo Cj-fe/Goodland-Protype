@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
@@ -473,6 +474,10 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer Section -->
+    <?php include 'includes/footer.php'?>
+
 
     <script src="js/index_script.js"></script>
 
