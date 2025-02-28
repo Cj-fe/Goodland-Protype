@@ -45,3 +45,4 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", handleScroll);
     handleScroll(); // Run once to check already visible elements
 });
+
