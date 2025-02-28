@@ -30,14 +30,14 @@
             <div class="footer-column">
                 <h3>Recent Posts</h3>
                 <div class="post-item">
-                    <img src="../img/adlaw.jpg.jpg">
+                <img src="/img/image.png">
                     <div class="post-info">
                         <p><strong>Go Green Initiative Takes Off</strong></p>
                         <span>by Admin</span>
                     </div>
                 </div>
                 <div class="post-item">
-                <img src="../img/adlaw.jpg.jpg">
+                <img src="img/image.jpg">
                     <div class="post-info">
                         <p><strong>Empowering Coastal Communities</strong></p>
                         <span>by Admin</span>
