@@ -1,8 +1,12 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-column about">
-            <h3><i class="fa-solid fa-leaf"></i> <span class="brand-name">GoodLand</span></h3>
-            <p>An art-driven NGO focused on creating sustainable solutions for social, economic, and environmental challenges on Bantayan Island.</p>
+            <h3 class="footer-logo">
+                <i class="fa-solid fa-leaf"></i> <span class="brand-name">GoodLand</span>
+            </h3>
+            <p>
+                An art-driven NGO focused on creating sustainable solutions for social, economic, and environmental challenges on Bantayan Island.
+            </p>
             <h4>Contact With Us</h4>
             <div class="footer-social">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -19,7 +23,7 @@
                 <li>▶ Causes (9)</li>
                 <li>▶ Events (9)</li>
                 <li>▶ Projects (6)</li>
-                <li>▶ Blog (6)</li>
+                <li>▶ Recent Blog (6)</li>
                 <li>▶ Uncategorized (1)</li>
             </ul>
         </div>
@@ -28,14 +32,14 @@
             <h3>Links</h3>
             <ul>
                 <li>▶ <a href="#">Home</a></li>
-                <li>▶ <a href="#">About Us</a></li>
-                <li>▶ <a href="#">Projects</a></li>
+                <li>▶ <a href="#">Blog</a></li>
                 <li>▶ <a href="#">Contact</a></li>
+                <li>▶ <a href="#">Shop</a></li>
             </ul>
         </div>
 
         <div class="footer-column recent-posts">
-            <h3>Recent Posts</h3>
+            <h3>Recent Post</h3>
             <div class="post-item">
                 <img src="post1.jpg" alt="Post Image">
                 <div class="post-info">
