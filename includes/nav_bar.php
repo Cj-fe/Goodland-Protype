@@ -9,7 +9,7 @@
             <i class="contact-icon fa-solid fa-phone"></i>
             <div class="contact-text">
                 <span class="contact-heading">Call Us Anytime</span>
-                <span class="contact-detail">(+91) 1800-214-122</span>
+                <span class="contact-detail">+63 322324822</span>
             </div>
         </div>
 
@@ -17,7 +17,7 @@
             <i class="contact-icon fa-solid fa-envelope"></i>
             <div class="contact-text">
                 <span class="contact-heading">Email Us Anytime</span>
-                <span class="contact-detail">eco@example.com</span>
+                <span class="contact-detail">goodland.phillipines@gmail.com</span>
             </div>
         </div>
     </div>
